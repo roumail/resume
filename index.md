@@ -1,91 +1,136 @@
 ---
 layout: cv
-title: Isaac Newtons's CV
+title: Rohail Taimour
 ---
-# Isaac Newton
-Physicist, Mathematician, Cambridge professor.
+<!-- Define style's for headings -->
+
+<style>
+    #heading2 {
+        font-size: 1.1em;
+        color: #a00;
+        margin-top: 2em;
+        top: 1.2em;
+        text-align: center;
+        position: relative;
+        width: 100%;
+    }
+</style>
+
+<!-- <img style="float:left" src="/data/closeup-Photo.jpeg">  -->
+
+# Rohail Taimour
+Contract Data Scientist | Statistician | Python/R for AI/Machine Learning   
+1040, Brussels, Belgium
 
 <div id="webaddress">
-<a href="isaac@applesdofall.org">isaac@applesdofall.org</a>
-| <a href="http://en.wikipedia.org/wiki/Isaac_Newton">My wikipedia page</a>
+rohail.taimour@gmail.com | +32 489 83 64 76
+| <a href="https://www.linkedin.com/in/rohailtaimour/">Linkedin</a>
+| <a href="https://github.com/roumail">Github</a>
 </div>
 
+## Summary
 
-## Currently
-
-Standing on the shoulders of giants
-
-### Specialized in
-
-Laws of motion, gravitation, minting coins, disliking [Robert Hooke](http://en.wikipedia.org/wiki/Robert_Hooke)
-
-
-### Research interests
-
-Cooling, power series, optics, alchemy, planetary motions, apples.
-
+Experienced data scientist with an expertise in working on data products that have a machine learning focus. I am able to play a dynamic role between data scientist/machine learning engineer and data engineer given the needs of the project. I am passionate about adopting development best practices wherever possible and am comfortable working in an ambiguous and fast changing environment, laser focused on delivering user requirements in an agile manner.
 
 ## Education
 
-`1654-1660`
-__The King's School, Grantham.__
+`2014-2016`
+__MSc in Statistics ‑ Cum Laude, KU Leuven, Leuven, Belgium__  
 
-`June 1661 - now`
-__Trinity College, Cambridge__
+- Master’s thesis on continuous optimization of production processes in __MATLAB__
 
-- Sizar
+`2010-2014`
+__BSc (Hons.) in Accounting and Finance, Lahore University of Management Sciences (LUMS), Lahore, Pakistan__
 
-`1667 - death`
-__Trinity College, Cambridge__
+- Graduated with Distinction (3.6/4.0)
+- Courses: Operations Research, Supply Chain, Decision analysis, Applied Probability  
 
-- Fellow
+## Personal details
 
+### Nationality
 
+Belgian 
 
-## Awards
+### Language skills
+English (fluent/bilingual), Urdu (Native), French (B1)
 
-`2012`
-President, *Royal Society*, London, UK
+### Mobility
+Driving Licence available, flexible for hybrid setup with up to 4 days on site
 
-Associate, *French Academy of Science*, Paris, France
+### Availability
+Immediately
 
+<!-- <header> <h2 style="width:50%">Freelance projects (Oct 2022-present) </h2></header> -->
 
+## Freelance projects (Oct 2022-present) {#heading2}
 
-## Publications
+### Machine Learning Engineer, IT Supply Quality, GSK
+`Oct 2022‑Feb 2023`  
+__Design and implement information retrieval methods using Natural language processing (NLP) on incoming emails__  
+*Achievements:*
+- Master’s thesis on continuous optimization of production processes in __MATLAB__
 
-<!-- A list is also available [online](http://scholar.google.co.uk/citations?user=LTOTl0YAAAAJ) -->
+*Responsibilities:*
+- Master’s thesis on continuous optimization of production processes in __MATLAB__
 
-### Journals
+## Data science projects at IT AI team, UCB Pharmaceutical (2016‑Oct 2022) {#heading2}
 
-`1669`
-Newton Sir I, De analysi per æquationes numero terminorum infinitas. 
+### Machine Learning Engineer, IT Supply Quality, GSK
+`Oct 2022‑Feb 2023`  
+__Yield optimization and design of experiments for batch and continuous production processes using Machine Learning in Python__  
+*Achievements:*
+- Master’s thesis on continuous optimization of production processes in __MATLAB__
 
-`1669`
-Lectiones opticæ.
+*Responsibilities:*
+- Master’s thesis on continuous optimization of production processes in __MATLAB__
 
-etc. etc. etc.
+## Technology stack and competencies
 
-### Patents
+### Development environment
+__Preferred python packages:__ pandas, pymc3, kedro, scikit‑learn, sktime, seaborn   
+__OS:__ Windows, MacOS, Linux (Redhat/Ubuntu)   
+__IDE:__ Pycharm, VScode, Rstudio, jupyter notebooks, Azure data bricks, Docker containers   
+__code quality:__ black, pre‑commit, isort, typing  
+git flow branching for collaboration using git  
+AWS s3/Azure blob for project related data exchange  
+Azure pipelines for CI/CD and testing  
+conda, mamba, pip for project dependencies  
+MLflow for experiment tracking, model and artifact management, serving predictions  
 
-`2012`
-Infinitesimal calculus for solutions to physics problems, [SMBC](http://www.techdirt.com/articles/20121011/09312820678/if-patents-had-been-around-time-newton.shtml) patent 001
+### Machine Learning models
+Regression, classification, clustering using classical statistical  
+Machine learning approaches (tree‑based methods such as XGboost, Random Forest etc) on tabular data  
+Time series forecasting, clustering, aggregation using bary centers  
+Probablistic programming, montecarlo simulation and bayesian statistics  
+Natural language processing (NLP) text embeddings, Named entity Recognition (NER), sentiment/topic analysis  
 
+### Soft skills
 
-## Occupation
+Driven, proactive, dynamic, can‑do attitude  
+Diverse educational/work experience: accounting and finance, supply chain, statistics, data science  
+Quick study for different business use cases, technology stacks, (machine learning) methods  
+Strong communication skills and ability to deliver to deadlines  
+Can work autonomously, as well as within a team  
+Experienced in Agile rituals and breaking down complex requirements into achievable milestones  
 
-`1600`
-__Royal Mint__, London
+## Certifications
 
-- Warden
-- Minted coins
+### Python
+__‘Software engineering for Data scientists’__ (2019) from Ian Ozsvald (PyData London)  
 
-`1600`
-__Lucasian professor of Mathematics__, Cambridge University
+### R
+__‘Advanced R Programming’__ (2014) from Belgian Open Source Analytical Consultants (BNOSAC)   
 
+## Miscellaneous
 
+### Personal project
 
-<!-- ### Footer
+Developed webscraper in python (Beautiful soup, Selenium) to compare apartments based on price, area, etc   
 
-Last updated: May 2013 -->
+### Hobbies
+
+Drumming and percussion instruments, Bouldering/Climbing, productivity, Squash, reading
+
+<!-- ### Footer Last updated: May 2013 -->
 
 
