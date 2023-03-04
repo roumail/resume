@@ -14,6 +14,22 @@ title: Rohail Taimour
         position: relative;
         width: 100%;
     }
+    #project {
+        font-size: 1.0em;
+        margin-top: 2em;
+        top: 1.2em;
+        text-align: left;
+        font-weight: bold;
+        position: relative;
+        width: 60%;
+    }
+    #position {
+        text-align: left;
+        position: relative;
+        width: 60%;
+    }
+
+
 </style>
 
 <!-- <img style="float:left" src="/data/closeup-Photo.jpeg">  -->
@@ -64,18 +80,27 @@ Immediately
 
 ## Freelance projects (Oct 2022-present) {#heading2}
 
-### Machine Learning Engineer, IT Supply Quality, GSK
+### Design and implement information retrieval methods using Natural language processing (NLP) on incoming emails {#project}
 `Oct 2022‑Feb 2023`  
-__Design and implement information retrieval methods using Natural language processing (NLP) on incoming emails__  
+#### Machine Learning Engineer, IT Supply Quality, GSK Belgium {#position}  
 *Achievements:*
-- Master’s thesis on continuous optimization of production processes in __MATLAB__
+* Refactored and simplified python codebase, adding features such as better handling of non‑english emails, breaking emails into sentences, etc  
+* Improved performance of information retrieval by 20% on unseen test data  
 
 *Responsibilities:*
-- Master’s thesis on continuous optimization of production processes in __MATLAB__
+* Implemented a text preprocessing pipeline using __spacy__ tokenization, Part of speech (POS) tagging  
+* Perform POC’s on how to improve NLP model performance using rule based techniques as well as named entity recognition (NER)    
+* Annotated data to train a custom NER   
+* Define and clarify kpi’s to track model performance evolution  
 
-## Data science projects at IT AI team, UCB Pharmaceutical (2016‑Oct 2022) {#heading2}
 
-### Machine Learning Engineer, IT Supply Quality, GSK
+## Data science projects at IT AI team, UCB Pharmaceutical (2016‑Oct 2022) {#heading2}  
+<br>
+
+IT Artificial Intelligence (ITAI) is a global and cross functional team working across different use cases in the pharmaceutical industry from commercial (go to market), finance, manufacturing, to drug development and adverse event reporting. We use a modern stack consisting of Docker, Amazon AWS, Microsoft Azure.
+
+### Lead Data Scientist, Supply and Manufacturing, UCB Switzerland/Belgium
+
 `Oct 2022‑Feb 2023`  
 __Yield optimization and design of experiments for batch and continuous production processes using Machine Learning in Python__  
 *Achievements:*
