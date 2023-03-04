@@ -156,7 +156,7 @@ IT Artificial Intelligence (ITAI) is a global and cross functional team working 
 #### Lead Data Scientist, US Finance and claims, UCB {#position}
 
 *Achievements:*
-* Created modular R packages to extend the functionality of Facebook’s prophet package  
+* Created modular __R packages__ to extend the functionality of Facebook’s prophet package  
 * Created an end to end workflow for ingesting, forecasting and reporting with a user friendly interface to analyse forecasting results  
 * Achieved forecasting accuracy of > 90% across the different use cases   
      
@@ -164,14 +164,14 @@ IT Artificial Intelligence (ITAI) is a global and cross functional team working 
 * Prototyped different time series forecasting methods to flexibly model multiple time series models    
 * Applied anomaly detection methods to account for outlying behaviour in time series automatically     
 * Performed hyperparameter tuning and validation on a batch compute machine    
-* Created customized reports in Rmarkdown to show forecast metrics and visualization for each individual time series that was emailed to our stakeholders  
+* Created customized reports in __Rmarkdown__ to show forecast metrics and visualization for each individual time series that was emailed to our stakeholders  
 
 ### Hands‑on workshop to demystify Artificial intelligence and Machine Learning {#project}
 `May‑ June 2017`  
 #### Data science instructor, IT departments US, EU, UCB {#position}
 *Achievements:*
 * Delivered the workshop to over 100 people in four different venues and received great feedback on level of engagement    
-* Created a shiny application to facilitate conducting the workshop, walking people through the typical AI use cases  
+* Created a __R shiny__ application to facilitate conducting the workshop, walking people through the typical AI use cases  
      
 *Responsibilities:*
 * Prepare content for the workshop and decide on most engaging way to deliver the material      
