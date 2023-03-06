@@ -73,15 +73,15 @@ Experienced data scientist with an expertise in working on data products that ha
     <li><strong>Achievements:</strong>
       <ul>
         <li>Refactored and simplified python codebase, adding features such as better handling of non‑english emails, breaking emails into sentences, etc</li>
-        <li>Improved performance of information retrieval by 20% on unseen test data</li>
+        <li>Improved performance of information retrieval by <strong>20%</strong> on unseen test data</li>
       </ul>
     </li>
     <li><strong>Responsibilities:</strong>
       <ul>
-        <li>Implemented a text preprocessing pipeline using <code>spacy</code> tokenization, Part of speech (POS) tagging</li>
-        <li>Performed POC’s on how to improve NLP model performance using rule based techniques as well as named entity recognition (NER)</li>
-        <li>Annotated data to train a custom NER</li>
         <li>Defined and clarified KPI’s to track model performance evolution</li>
+        <li>Implemented a text preprocessing pipeline in <strong> Azure Databricks </strong>using <strong>spacy</strong> tokenization, Part of speech (POS) tagging</li>
+        <li>Performed POC’s on how to improve NLP model performance using rule based techniques as well as named entity recognition (<strong>NER</strong>)</li>
+        <li>Annotated data to train a custom NER, storing model artifacts on <strong>Azure blob </strong></li>
       </ul>
     </li>
   </ul>
@@ -90,7 +90,7 @@ Experienced data scientist with an expertise in working on data products that ha
 
 ## Data science projects at IT AI team, UCB Pharmaceutical (2016‑Oct 2022)   
 
-IT Artificial Intelligence (ITAI) is a global and cross functional team working across different use cases in the pharmaceutical industry from commercial (go to market), finance, manufacturing, to drug development and adverse event reporting. Our projects used a modern stack consisting of Docker as a consistent development environment, Amazon AWS for remote servers, Microsoft Azure for CI/CD pipelines and git versioning.
+IT Artificial Intelligence (ITAI) is a global and cross functional team working across different use cases in the pharmaceutical industry from commercial (go to market), finance, manufacturing, to drug development and adverse event reporting. Our projects used a modern stack consisting of <strong>Docker</strong> as a consistent development environment, <strong>Amazon AWS</strong> for hosting analytic workflows, <strong>Microsoft Azure</strong> for CI/CD pipelines and git versioning.
 
 <div class="cv-entry">
   <h3 class="project-title">Yield optimization and design of experiments for batch and continuous production processes using Machine Learning in Python</h3>
@@ -108,7 +108,7 @@ IT Artificial Intelligence (ITAI) is a global and cross functional team working 
     <li><strong>Achievements:</strong>
       <ul>
         <li>Supported delivery of workshops demystifying the process of conducting AI projects and machine learning to process experts</li>
-        <li>Production setting proposed by model directly led to an increased throughput of 20%, turning in a <em>recurring 1.5 million euro</em> in annual cost savings</li>
+        <li>Production setting proposed by model directly led to an <strong>increased throughput of 20%</strong>, turning in a <strong>recurring 1.5 million euro</strong> in annual cost savings</li>
       </ul>
     </li>
     <li><strong>Responsibilities:</strong>
@@ -116,9 +116,9 @@ IT Artificial Intelligence (ITAI) is a global and cross functional team working 
         <li>Deliver a two-hour presentation weekly on insights from data, focusing on driving engagement and discussion within the process experts</li>
         <li>Deliver biweekly sprint review update on deliverables status</li>
         <li>Analyze time series data collected from equipment sensors and visually summarize golden batch insights</li>
-        <li>Supporting the mentoring and training of junior data science profiles on the project</li>
         <li>Performed a thorough model validation and hyperparameter tuning exercise before recommending model insights be tested in a live production environment</li>
         <li>Created (bayesian) and tree-based regression models to quantify impact of process changes and predict batch performance</li>
+        <li>Supporting the mentoring and training of junior data science profiles on the project</li>
       </ul>
     </li>
   </ul>
@@ -141,9 +141,9 @@ IT Artificial Intelligence (ITAI) is a global and cross functional team working 
     <li><strong>Achievements:</strong>
       <ul>
         <li>Delivered as many as ten different use cases as lead data scientist for different products and countries</li>
-        <li>Created Python packages wrapping over scikit‑learn facilitating the training and tuning of models as well as data pre‑processing steps</li>
-        <li>Supported reproducibility of analyses using MLflow that could allowed junior profiles to deliver higher quality, reproducible analyses</li>
         <li>Templated entire data science workflow into a configurable pipeline that could be executed for different countries/disease areas</li>
+        <li>Created Python packages wrapping over <strong>scikit‑learn</strong> facilitating the training and tuning of models as well as data pre‑processing steps</li>
+        <li>Supported reproducibility of analyses using <strong>MLflow </strong>that could allowed junior profiles to deliver higher quality, reproducible analyses</li>
       </ul>
     </li>
     <li><strong>Responsibilities:</strong>
@@ -153,7 +153,7 @@ IT Artificial Intelligence (ITAI) is a global and cross functional team working 
         <li>Investigated adaptations to data science methodology for country/product specificities for maximum reusability</li>
         <li>Deliver biweekly sprint review update on deliverables status</li>
         <li>Validated ingested data using data visualization methods and discussions with subject matter experts</li>
-        <li>Supported data engineers in the creation of features using pyspark</li>
+        <li>Supported data engineers in the creation of features using <strong>pyspark</strong></li>
         <li>Created customer segmentation models and proposed optimal resource allocation based on customer responsiveness to different channels</li>
         <li>Developed a framework for logging model versions, data inputs, predictions and other model artifacts to a dashboard to facilitate discussion with the team and our stakeholders</li>
       </ul>
@@ -187,9 +187,9 @@ IT Artificial Intelligence (ITAI) is a global and cross functional team working 
         <li>Prioritized request backlog, make request feasibility assessments for customisations and communicate timelines</li>
         <li>Define product roadmap to increase our capacity for taking in requests by improving the software foundations of our data product</li>
         <li>Create custom databases for each new request, ingesting additional data sources to quantify influence, as needed</li>
-        <li>Performed data quality checks by querying the database using Cypher from the Web UI as well as jupyter notebooks</li>
-        <li>Made network visualizations using networkx, Cytoscape and performed custom analysis</li>
         <li>Provided customized KOL ranking/profiling reports and presentations based on stakeholder requirements</li>
+        <li>Performed data quality checks by querying the database using <strong>Cypher</strong> from the Web UI as well as <strong>jupyter notebooks</strong></li>
+        <li>Made network visualizations using <strong>networkx</strong>, Cytoscape and performed custom analysis</li>
       </ul>
     </li>
   </ul>
@@ -210,9 +210,9 @@ IT Artificial Intelligence (ITAI) is a global and cross functional team working 
   <ul class="project-details">
     <li><strong>Achievements:</strong>
       <ul>
-        <li>Created modular <code>R packages</code> to extend the functionality of Facebook's prophet package</li>
+        <li>Created modular <strong>R packages</strong> to extend the functionality of Facebook's prophet package</li>
         <li>Created an end to end workflow for ingesting, forecasting and reporting with a user friendly interface to analyze forecasting results</li>
-        <li>Achieved forecasting accuracy of > 90% across the different use cases</li>
+        <li>Achieved forecasting accuracy of <strong>> 90% </strong>across the different use cases</li>
       </ul>
     </li>
     <li><strong>Responsibilities:</strong>
@@ -220,7 +220,7 @@ IT Artificial Intelligence (ITAI) is a global and cross functional team working 
         <li>Prototyped different time series forecasting methods to flexibly model multiple time series models</li>
         <li>Applied anomaly detection methods to account for outlying behavior in time series automatically</li>
         <li>Performed hyperparameter tuning and validation on a batch compute machine</li>
-        <li>Created customized reports in <code>Rmarkdown</code> to show forecast metrics and visualization for each individual time series that was emailed to our stakeholders</li>
+        <li>Created customized reports in <strong>Rmarkdown</strong> to show forecast metrics and visualization for each individual time series that was emailed to our stakeholders</li>
       </ul>
     </li>
   </ul>
@@ -241,8 +241,8 @@ IT Artificial Intelligence (ITAI) is a global and cross functional team working 
   <ul class="project-details">
     <li><strong>Achievements:</strong>
       <ul>
-        <li>Delivered the workshop to over 100 people in four different venues and received great feedback on level of engagement</li>
-        <li>Created a <code>R shiny</code> application to facilitate conducting the workshop, walking people through the typical AI use cases</li>
+        <li>Delivered the workshop to over <strong>100 people</strong> in four different venues and received great feedback on level of engagement</li>
+        <li>Created a <strong>R shiny</strong> application to facilitate conducting the workshop, walking people through the typical AI use cases</li>
       </ul>
     </li>
     <li><strong>Responsibilities:</strong>
@@ -303,8 +303,8 @@ IT Artificial Intelligence (ITAI) is a global and cross functional team working 
     </td>
     <td>
       <ul>
-        <li>Python: 'Software engineering for Data scientists' (2019) from Ian Ozsvald (PyData London)</li>
-        <li>R: 'Advanced R Programming' (2014) from Belgian Open Source Analytical Consultants (BNOSAC)</li>
+        <li><strong>Python</strong>: 'Software engineering for Data scientists' (2019) from Ian Ozsvald (PyData London)</li>
+        <li><strong>R</strong>: 'Advanced R Programming' (2014) from Belgian Open Source Analytical Consultants (BNOSAC)</li>
       </ul>
     </td>
   </tr>
