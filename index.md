@@ -24,7 +24,7 @@ Experienced data scientist with an expertise in working on data products that ha
 ## Education
 
 <div class="edu-entry">
-  <p class="edu-name">MSc in Statistics ‑ Cum Laude, KU Leuven, Leuven, Belgium</p>
+  <h3 class="edu-name">MSc in Statistics ‑ Cum Laude, KU Leuven, Leuven, Belgium</h3>
   <p class="edu-duration"><code>2014-2016</code></p>
   <ul class="edu-comments">
     <li>Master’s thesis on continuous optimization of production processes in <strong>MATLAB</strong></li>
@@ -34,7 +34,7 @@ Experienced data scientist with an expertise in working on data products that ha
 
 
 <div class="edu-entry">
-  <p class="edu-name">BSc (Hons.) in Accounting and Finance, Lahore University of Management Sciences (LUMS), Lahore, Pakistan</p>
+  <h3 class="edu-name">BSc (Hons.) in Accounting and Finance, Lahore University of Management Sciences (LUMS), Lahore, Pakistan</h3>
   <p class="edu-duration"><code>2010-2014</code></p>
   <ul class="edu-comments">
     <li>Graduated with Distinction (3.6/4.0)</li>
