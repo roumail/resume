@@ -1,36 +1,9 @@
 ---
-layout: cv
 title: Rohail Taimour
 ---
-<!-- Define style's for headings -->
-
-<style>
-    #heading2 {
-        font-size: 1.1em;
-        color: #a00;
-        margin-top: 2em;
-        top: 1.2em;
-        text-align: center;
-        position: relative;
-        width: 100%;
-    }
-    #project {
-        font-size: 1.0em;
-        margin-top: 2em;
-        top: 1.2em;
-        text-align: left;
-        font-weight: bold;
-        position: relative;
-        width: 90%;
-    }
-    #position {
-        text-align: left;
-        position: relative;
-        width: 60%;
-    }
-
-
-</style>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
 
 <!-- <img style="float:left" src="/data/closeup-Photo.jpeg">  -->
 
@@ -50,132 +23,175 @@ Experienced data scientist with an expertise in working on data products that ha
 
 ## Education
 
-`2014-2016`
-__MSc in Statistics ‑ Cum Laude, KU Leuven, Leuven, Belgium__  
-
-- Master’s thesis on continuous optimization of production processes in __MATLAB__
-
-`2010-2014`
-__BSc (Hons.) in Accounting and Finance, Lahore University of Management Sciences (LUMS), Lahore, Pakistan__
-
-- Graduated with Distinction (3.6/4.0)
-- Courses: Operations Research, Supply Chain, Decision analysis, Applied Probability  
-
-## Personal details
-
-### Nationality
-
-Belgian 
-
-### Language skills
-English (fluent/bilingual), Urdu (Native), French (B1)
-
-### Mobility
-Driving Licence available, flexible for hybrid setup with up to 4 days on site
-
-### Availability
-Immediately
-
-<!-- <header> <h2 style="width:50%">Freelance projects (Oct 2022-present) </h2></header> -->
-
-## Freelance projects (Oct 2022-present) {#heading2}
-
-### Design and implement information retrieval methods using Natural language processing (NLP) on incoming emails {#project}
-`Oct 2022‑Feb 2023`  
-#### Machine Learning Engineer, IT Supply Quality, GSK Belgium {#position}  
-*Achievements:*
-* Refactored and simplified python codebase, adding features such as better handling of non‑english emails, breaking emails into sentences, etc  
-* Improved performance of information retrieval by 20% on unseen test data  
-
-*Responsibilities:*
-* Implemented a text preprocessing pipeline using __spacy__ tokenization, Part of speech (POS) tagging  
-* Perform POC’s on how to improve NLP model performance using rule based techniques as well as named entity recognition (NER)    
-* Annotated data to train a custom NER   
-* Define and clarify kpi’s to track model performance evolution  
+<div class="edu-entry">
+  <h3 class="edu-name">MSc in Statistics ‑ Cum Laude, KU Leuven, Leuven, Belgium</h3>
+  <p class="edu-duration"><code>2014-2016</code></p>
+  <ul class="edu-comments">
+    <li>Master’s thesis on continuous optimization of production processes in <strong>MATLAB</strong></li>
+  </ul>
+</div>
 
 
-## Data science projects at IT AI team, UCB Pharmaceutical (2016‑Oct 2022) {#heading2}  
-<br>
+<div class="edu-entry">
+  <h3 class="edu-name">BSc (Hons.) in Accounting and Finance, Lahore University of Management Sciences (LUMS), Lahore, Pakistan</h3>
+  <p class="edu-duration"><code>2010-2014</code></p>
+  <ul class="edu-comments">
+    <li>Graduated with Distinction (3.6/4.0)</li>
+    <li>Courses: Operations Research, Supply Chain, Decision analysis, Applied Probability </li>
+  </ul>
+</div>
 
-IT Artificial Intelligence (ITAI) is a global and cross functional team working across different use cases in the pharmaceutical industry from commercial (go to market), finance, manufacturing, to drug development and adverse event reporting. We use a modern stack consisting of Docker, Amazon AWS, Microsoft Azure.
+## Freelance projects (Oct 2022-present) 
 
-### Yield optimization and design of experiments for batch and continuous production processes using Machine Learning in Python {#project}
-`Aug 2020‑Oct 2022`  
-#### Lead Data Scientist, Supply and Manufacturing, UCB Switzerland/Belgium {#position}  
-*Achievements:*
-* Supported delivery of workshops demystifying the process of conducting AI projects and machine learning to process experts   
-* Production setting proposed by model directly led to an increased throughput of 20 %, turning in a __recurring 1.5 million euro__ in annual cost savings 
+<div class="cv-entry">
+  <h3 class="project-title">Design and implement information retrieval methods using Natural language processing (NLP) on incoming emails</h3>
+  <p class="project-duration"><code>Oct 2022‑Feb 2023</code></p>
+  <h4 class="project-role">Machine Learning Engineer, IT Supply Quality, GSK Belgium</h4>
+  <ul class="project-details">
+    <li><strong>Achievements:</strong>
+      <ul>
+        <li>Refactored and simplified python codebase, adding features such as better handling of non‑english emails, breaking emails into sentences, etc</li>
+        <li>Improved performance of information retrieval by 20% on unseen test data</li>
+      </ul>
+    </li>
+    <li><strong>Responsibilities:</strong>
+      <ul>
+        <li>Implemented a text preprocessing pipeline using <code>spacy</code> tokenization, Part of speech (POS) tagging</li>
+        <li>Performed POC’s on how to improve NLP model performance using rule based techniques as well as named entity recognition (NER)</li>
+        <li>Annotated data to train a custom NER</li>
+        <li>Defined and clarified KPI’s to track model performance evolution</li>
+      </ul>
+    </li>
+  </ul>
+</div>
 
-*Responsibilities:*
-* Deliver a two hour presentation weekly on insights from data, focusing on driving engagement and discussion within the process experts  
-* Deliver biweekly sprint review update on deliverables status   
-* Analyse time series data collected from equipment sensors and visually summarize golden batch insights  
-* Supporting the mentoring and training of junior data science profiles on the project  
-* Performed a thorough model validation and hyperparameter tuning exercise before recommending model insights be tested in a live production environment  
-* Created (bayesian) and tree based regression models to quantify impact of process changes and predict batch performance  
 
-### Optimize customer engagement based on promotional responsiveness by channel across EU5 {#project}
-`June 2019‑June 2021`  
-#### AI/ML engineer, Lead Data Scientist, Go to Market/ Commerical teams in EU5, US and Japan, UCB {#position}
+## Data science projects at IT AI team, UCB Pharmaceutical (2016‑Oct 2022)   
 
-*Achievements:*
-* Delivered as many as ten different use cases as lead data scientist for different products and countries   
-* Created Python packages wrapping over scikit‑learn facilitating the training and tuning of models as well as data pre‑processing steps   
-* Supported reproducibility of analyses using MLflow that could allowed junior profiles to deliver higher quality, reproducible analyses   
-* Templated entire data science workflow into a configurable pipeline that could be executed for different countries/disease areas   
+IT Artificial Intelligence (ITAI) is a global and cross functional team working across different use cases in the pharmaceutical industry from commercial (go to market), finance, manufacturing, to drug development and adverse event reporting. Our projects used a modern stack consisting of Docker as a consistent development environment, Amazon AWS for remote servers, Microsoft Azure for CI/CD pipelines and git versioning.
 
-*Responsibilities:*
-* Facilitate timeline and feasibility assessment for data science component together with the project manager  
-* Populate backlog with data science tasks during dailies and help prioritize to support timely deliveries  
-* Investigated adaptations to data science methodology for country/product specificities for maximum reusability  
-* Deliver biweekly sprint review update on deliverables status  
-* Validated ingested data using data visualization methods and discussions with subject matter experts  
-* Supported data engineers in the creation of features using pyspark  
-* Created customer segmentation models and proposed optimal resource allocation based on customer responsiveness to different channels  
-* Developed a framework for logging model versions, data inputs, predictions and other model artifacts to a dashboard to facilitate discussion with the team and our stakeholders  
+<div class="cv-entry">
+  <h3 class="project-title">Yield optimization and design of experiments for batch and continuous production processes using Machine Learning in Python</h3>
+  <p class="project-duration"><code>Aug 2020‑Oct 2022</code></p>
+  <h4 class="project-role">Lead Data Scientist, Supply and Manufacturing, UCB Switzerland/Belgium</h4>
+  <ul class="project-details">
+    <li><strong>Achievements:</strong>
+      <ul>
+        <li>Supported delivery of workshops demystifying the process of conducting AI projects and machine learning to process experts</li>
+        <li>Production setting proposed by model directly led to an increased throughput of 20%, turning in a <em>recurring 1.5 million euro</em> in annual cost savings</li>
+      </ul>
+    </li>
+    <li><strong>Responsibilities:</strong>
+      <ul>
+        <li>Deliver a two-hour presentation weekly on insights from data, focusing on driving engagement and discussion within the process experts</li>
+        <li>Deliver biweekly sprint review update on deliverables status</li>
+        <li>Analyze time series data collected from equipment sensors and visually summarize golden batch insights</li>
+        <li>Supporting the mentoring and training of junior data science profiles on the project</li>
+        <li>Performed a thorough model validation and hyperparameter tuning exercise before recommending model insights be tested in a live production environment</li>
+        <li>Created (bayesian) and tree-based regression models to quantify impact of process changes and predict batch performance</li>
+      </ul>
+    </li>
+  </ul>
+</div>
 
-### Scientific influencer (KOLs) identification, ranking and profiling using network analytics and Neo4j {#project}
-`2018‑2019`  
-#### Data scientist/Product owner, Drug Development, Commercial, Medical affairs, UCB {#position}
 
-*Achievements:*
-* Successfully delivered 10+ KOL identification projects to stakeholders across the company  
-* Reduced time to deliver reports from days to hours by leading functional interface improvement with a senior software developer   
-  
-*Responsibilities:*
-* Introduce stakeholders to our product offering and understand their needs  
-* Prioritized request backlog, make request feasibility assessments for customisations and communicate timelines  
-* Define product roadmap to increase our capacity for taking in requests by improving the software foundations of our data product  
-* Create custom databases for each new request, ingesting additional data sources to quantify influence, as needed  
-* Performed data quality checks by querying the database using __Cypher__ from the Web UI as well as jupyter notebooks  
-* Made network visualizations using __networkx__, __Cytoscape__ and performed custom analysis  
-* Provided customized KOL ranking/profiling reports and presentations based on stakeholder requirements  
+<div class="cv-entry">
+  <h3 class="project-title">Optimize customer engagement based on promotional responsiveness by channel across EU5</h3>
+  <p class="project-duration"><code>June 2019‑June 2021</code></p>
+  <h4 class="project-role">AI/ML engineer, Lead Data Scientist, Go to Market/ Commerical teams in EU5, US and Japan, UCB</h4>
+  <ul class="project-details">
+    <li><strong>Achievements:</strong>
+      <ul>
+        <li>Delivered as many as ten different use cases as lead data scientist for different products and countries</li>
+        <li>Created Python packages wrapping over scikit‑learn facilitating the training and tuning of models as well as data pre‑processing steps</li>
+        <li>Supported reproducibility of analyses using MLflow that could allowed junior profiles to deliver higher quality, reproducible analyses</li>
+        <li>Templated entire data science workflow into a configurable pipeline that could be executed for different countries/disease areas</li>
+      </ul>
+    </li>
+    <li><strong>Responsibilities:</strong>
+      <ul>
+        <li>Facilitate timeline and feasibility assessment for data science component together with the project manager</li>
+        <li>Populate backlog with data science tasks during dailies and help prioritize to support timely deliveries</li>
+        <li>Investigated adaptations to data science methodology for country/product specificities for maximum reusability</li>
+        <li>Deliver biweekly sprint review update on deliverables status</li>
+        <li>Validated ingested data using data visualization methods and discussions with subject matter experts</li>
+        <li>Supported data engineers in the creation of features using pyspark</li>
+        <li>Created customer segmentation models and proposed optimal resource allocation based on customer responsiveness to different channels</li>
+        <li>Developed a framework for logging model versions, data inputs, predictions and other model artifacts to a dashboard to facilitate discussion with the team and our stakeholders</li>
+      </ul>
+    </li>
+  </ul>
+</div>
 
-### Developed an automated forecasting workflow of claims data from US healthcare system {#project}
-`2017‑2018`  
-#### Lead Data Scientist, US Finance and claims, UCB {#position}
 
-*Achievements:*
-* Created modular __R packages__ to extend the functionality of Facebook’s prophet package  
-* Created an end to end workflow for ingesting, forecasting and reporting with a user friendly interface to analyse forecasting results  
-* Achieved forecasting accuracy of > 90% across the different use cases   
-     
-*Responsibilities:*
-* Prototyped different time series forecasting methods to flexibly model multiple time series models    
-* Applied anomaly detection methods to account for outlying behaviour in time series automatically     
-* Performed hyperparameter tuning and validation on a batch compute machine    
-* Created customized reports in __Rmarkdown__ to show forecast metrics and visualization for each individual time series that was emailed to our stakeholders  
+<div class="cv-entry">
+  <h3 class="project-title">Scientific influencer (KOLs) identification, ranking and profiling using network analytics and Neo4j</h3>
+  <p class="project-duration"><code>2018‑2019</code></p>
+  <h4 class="project-role">Data scientist/Product owner, Drug Development, Commercial, Medical affairs, UCB</h4>
+  <ul class="project-details">
+    <li><strong>Achievements:</strong>
+      <ul>
+        <li>Successfully delivered 10+ KOL identification projects to stakeholders across the company</li>
+        <li>Reduced time to deliver reports from days to hours by leading functional interface improvement with a senior software developer</li>
+      </ul>
+    </li>
+    <li><strong>Responsibilities:</strong>
+      <ul>
+        <li>Introduce stakeholders to our product offering and understand their needs</li>
+        <li>Prioritized request backlog, make request feasibility assessments for customisations and communicate timelines</li>
+        <li>Define product roadmap to increase our capacity for taking in requests by improving the software foundations of our data product</li>
+        <li>Create custom databases for each new request, ingesting additional data sources to quantify influence, as needed</li>
+        <li>Performed data quality checks by querying the database using Cypher from the Web UI as well as jupyter notebooks</li>
+        <li>Made network visualizations using networkx, Cytoscape and performed custom analysis</li>
+        <li>Provided customized KOL ranking/profiling reports and presentations based on stakeholder requirements</li>
+      </ul>
+    </li>
+  </ul>
+</div>
 
-### Hands‑on workshop to demystify Artificial intelligence and Machine Learning {#project}
-`May‑ June 2017`  
-#### Data science instructor, IT departments US, EU, UCB {#position}
-*Achievements:*
-* Delivered the workshop to over 100 people in four different venues and received great feedback on level of engagement    
-* Created a __R shiny__ application to facilitate conducting the workshop, walking people through the typical AI use cases  
-     
-*Responsibilities:*
-* Prepare content for the workshop and decide on most engaging way to deliver the material      
-* Conduct the workshops, via hands on exercises on the content and debrief participants on solutions to the exercises       
+<div class="cv-entry">
+  <h3 class="project-title">Developed an automated forecasting workflow of claims data from US healthcare system</h3>
+  <p class="project-duration"><code>2017‑2018</code></p>
+  <h4 class="project-role">Lead Data Scientist, US Finance and claims, UCB</h4>
+  <ul class="project-details">
+    <li><strong>Achievements:</strong>
+      <ul>
+        <li>Created modular <code>R packages</code> to extend the functionality of Facebook's prophet package</li>
+        <li>Created an end to end workflow for ingesting, forecasting and reporting with a user friendly interface to analyze forecasting results</li>
+        <li>Achieved forecasting accuracy of > 90% across the different use cases</li>
+      </ul>
+    </li>
+    <li><strong>Responsibilities:</strong>
+      <ul>
+        <li>Prototyped different time series forecasting methods to flexibly model multiple time series models</li>
+        <li>Applied anomaly detection methods to account for outlying behavior in time series automatically</li>
+        <li>Performed hyperparameter tuning and validation on a batch compute machine</li>
+        <li>Created customized reports in <code>Rmarkdown</code> to show forecast metrics and visualization for each individual time series that was emailed to our stakeholders</li>
+      </ul>
+    </li>
+  </ul>
+</div>
+
+<div class="cv-entry">
+  <h3 class="project-title">Hands‑on workshop to demystify Artificial intelligence and Machine Learning</h3>
+  <p class="project-duration"><code>May‑ June 2017</code></p>
+  <h4 class="project-role">Data science instructor, IT departments US, EU, UCB</h4>
+  <ul class="project-details">
+    <li><strong>Achievements:</strong>
+      <ul>
+        <li>Delivered the workshop to over 100 people in four different venues and received great feedback on level of engagement</li>
+        <li>Created a <code>R shiny</code> application to facilitate conducting the workshop, walking people through the typical AI use cases</li>
+      </ul>
+    </li>
+    <li><strong>Responsibilities:</strong>
+      <ul>
+        <li>Prepare content for the workshop and decide on most engaging way to deliver the material</li>
+        <li>Conduct the workshops, via hands on exercises on the content and debrief participants on solutions to the exercises</li>
+      </ul>
+    </li>
+  </ul>
+</div>
+
 
 ## Technology stack and competencies
 
@@ -206,23 +222,26 @@ Strong communication skills and ability to deliver to deadlines
 Can work autonomously, as well as within a team  
 Experienced in Agile rituals and breaking down complex requirements into achievable milestones  
 
-## Certifications
-
-### Python
-__‘Software engineering for Data scientists’__ (2019) from Ian Ozsvald (PyData London)  
-
-### R
-__‘Advanced R Programming’__ (2014) from Belgian Open Source Analytical Consultants (BNOSAC)   
-
 ## Miscellaneous
+
+### Personal details
+
+*  __Nationality__: Belgian, Pakistani
+*  __Languages__: English (fluent/bilingual), Urdu (Native), French (B1)
+*  __Mobility__: Driving Licence available, flexible for hybrid setup with up to 4 days on site  
+*  __Availability__: Immediately
+* __Hobbies__: Drumming and percussion instruments, Bouldering/Climbing, productivity, Squash, reading
+
+### Certifications
+
+__Python__: __‘Software engineering for Data scientists’__ (2019) from Ian Ozsvald (PyData London)  
+
+__R__: __‘Advanced R Programming’__ (2014) from Belgian Open Source Analytical Consultants (BNOSAC)   
 
 ### Personal project
 
 Developed webscraper in python (Beautiful soup, Selenium) to compare apartments based on price, area, etc   
 
-### Hobbies
-
-Drumming and percussion instruments, Bouldering/Climbing, productivity, Squash, reading
 
 <!-- ### Footer Last updated: May 2013 -->
 
