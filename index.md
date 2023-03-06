@@ -3,7 +3,7 @@ title: Rohail Taimour
 ---
 
 <link rel="stylesheet" type="text/css" href="styles.css">
-<img style="float:right" src="/data/closeup-Photo.jpeg">
+<img style="float:right" src="data/closeup-Photo.jpeg">
 
 # Rohail Taimour
 Contract Data Scientist | Statistician | Python/R for AI/Machine Learning   
