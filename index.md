@@ -260,7 +260,8 @@ IT Artificial Intelligence (ITAI) is a global and cross functional team working 
 
 ## Personal projects
 
-Developed webscraper in python (Beautiful soup, Selenium) to compare apartments based on price, area, etc   
+* Developed webscraper in python (Beautiful soup, Selenium) to compare apartments based on price, area, etc   
+* Created a predictive model for whether movie will achieve an imdb rating > 7.5 using best practices for data science projects
 
 
 <!-- ### Footer Last updated: May 2013 -->
