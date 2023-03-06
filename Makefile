@@ -14,7 +14,7 @@ clean:
 update-gh-pages:
 	git checkout gh-pages
 	git reset --hard main
-	git push
+	git push origin gh-pages
 
 publish:
 	git push origin main:gh-pages
