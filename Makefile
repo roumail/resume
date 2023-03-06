@@ -1,15 +1,15 @@
-.PHONY: all html pdf clean publish
+.PHONY: all serve pdf clean publish
 
-all: html pdf
+all: clean serve pdf
 
-html:
-    pandoc -s -o resume.html --css styles.css resume.md
+serve:
+	jekyll serve
 
-pdf:
-    pandoc -s -o resume.pdf --css styles.css resume.md
+pdf: 
+	wkhtmltopdf localhost:4000 output.pdf
 
 clean:
-    rm -f resume.html resume.pdf
+	rm -f output.pdf
 
 publish:
-    git push origin main:gh-pages
+	git push origin main:gh-pages
