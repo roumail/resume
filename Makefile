@@ -11,5 +11,10 @@ pdf:
 clean:
 	rm -f output.pdf
 
+update-gh-pages:
+	git checkout gh-pages
+	git reset --hard main
+	git push
+
 publish:
 	git push origin main:gh-pages
