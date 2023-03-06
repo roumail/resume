@@ -4,8 +4,9 @@ h1,h2,h3,h4,body,p,a, table, td,tr {
 	border: 0;
   margin: 5;
 }
-body {
-  font-size: 14px;
+
+body,td,tr {
+  font-size: 16px;
   line-height: 1.5;
   color: #333;
 }
@@ -52,17 +53,43 @@ a:hover {
 }
 
 /*Entries for education */
-.edu-duration {
-  font-style: italic;
+.education-entry {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.education-entry > div {
+  display: table-cell;
+  padding: 5px;
+}
+
+.education-entry > div:nth-child(1) {
+  width: 30%;
+  font-size: 18px;
+  font-weight: bold;
+  color: #c3513d;
+  text-align: left;
+}
+
+.education-entry > div:nth-child(2) {
+  width: 60%;
+  font-weight: bold;
+  text-align: left;
+}
+
+.education-entry > div:nth-child(3) {
+  width: 10%;
   text-align: right;
-  right: -20%;
 }
 
 .edu-comments {
   margin-left: 20px;
 }
 
-/*Entries for CV entry */
+/*Entries for CV subtitle */
 
 .table-without-border {
   display: table;
@@ -91,7 +118,7 @@ a:hover {
   text-align: right;
 }
 
-
+/*Entries for CV title and bullets*/
 .cv-entry {
   margin-bottom: 5px;
 }
@@ -109,7 +136,7 @@ a:hover {
   margin-left: 20px;
 }
 
-/*Entries for education */
+/*Entries for skills section */
 table {
   margin-left:auto; 
   margin-right:auto;
@@ -117,8 +144,4 @@ table {
 
 td {
   vertical-align: top;
-}
-
-td,tr {
-  font-size: 14px;
 }
