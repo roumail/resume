@@ -3,8 +3,6 @@ title: Rohail Taimour
 ---
 
 <link rel="stylesheet" type="text/css" href="styles.css">
-
-
 <img style="float:right" src="/data/closeup-Photo.jpeg">
 
 # Rohail Taimour
@@ -54,8 +52,16 @@ Experienced data scientist with an expertise in working on data products that ha
 
 <div class="cv-entry">
   <h3 class="project-title">Design and implement information retrieval methods using Natural language processing (NLP) on incoming emails</h3>
-  <p class="project-duration"><code>Oct 2022‑Feb 2023</code></p>
-  <h4 class="project-role">Machine Learning Engineer, IT Supply Quality, GSK Belgium</h4>
+  <div class="table-without-border">
+    <div class="table-row">
+      <div class="table-cell">
+        <p>Machine Learning Engineer, IT Supply Quality, GSK Belgium</p>
+      </div>
+      <div class="table-cell">
+        <p>Oct 2022‑Feb 2023</p>
+      </div>
+    </div>
+  </div>
   <ul class="project-details">
     <li><strong>Achievements:</strong>
       <ul>
@@ -81,8 +87,16 @@ IT Artificial Intelligence (ITAI) is a global and cross functional team working 
 
 <div class="cv-entry">
   <h3 class="project-title">Yield optimization and design of experiments for batch and continuous production processes using Machine Learning in Python</h3>
-  <p class="project-duration"><code>Aug 2020‑Oct 2022</code></p>
-  <h4 class="project-role">Lead Data Scientist, Supply and Manufacturing, UCB Switzerland/Belgium</h4>
+  <div class="table-without-border">
+    <div class="table-row">
+      <div class="table-cell">
+        <p>Lead Data Scientist, Supply and Manufacturing, UCB Switzerland/Belgium</p>
+      </div>
+      <div class="table-cell">
+        <p>Aug 2020‑Oct 2022</p>
+      </div>
+    </div>
+  </div>
   <ul class="project-details">
     <li><strong>Achievements:</strong>
       <ul>
@@ -106,8 +120,16 @@ IT Artificial Intelligence (ITAI) is a global and cross functional team working 
 
 <div class="cv-entry">
   <h3 class="project-title">Optimize customer engagement based on promotional responsiveness by channel across EU5</h3>
-  <p class="project-duration"><code>June 2019‑June 2021</code></p>
-  <h4 class="project-role">AI/ML engineer, Lead Data Scientist, Go to Market/ Commerical teams in EU5, US and Japan, UCB</h4>
+  <div class="table-without-border">
+    <div class="table-row">
+      <div class="table-cell">
+        <p>AI/ML engineer, Lead Data Scientist, Go to Market/Commerical EU5, US and Japan, UCB</p>
+      </div>
+      <div class="table-cell">
+        <p>June 2019‑June 2021</p>
+      </div>
+    </div>
+  </div>
   <ul class="project-details">
     <li><strong>Achievements:</strong>
       <ul>
@@ -135,8 +157,16 @@ IT Artificial Intelligence (ITAI) is a global and cross functional team working 
 
 <div class="cv-entry">
   <h3 class="project-title">Scientific influencer (KOLs) identification, ranking and profiling using network analytics and Neo4j</h3>
-  <p class="project-duration"><code>2018‑2019</code></p>
-  <h4 class="project-role">Data scientist/Product owner, Drug Development, Commercial, Medical affairs, UCB</h4>
+    <div class="table-without-border">
+    <div class="table-row">
+      <div class="table-cell">
+        <p>Data scientist/Product owner, Drug Development, Commercial, Medical affairs, UCB</p>
+      </div>
+      <div class="table-cell">
+        <p>2018‑2019</p>
+      </div>
+    </div>
+  </div>
   <ul class="project-details">
     <li><strong>Achievements:</strong>
       <ul>
@@ -160,8 +190,16 @@ IT Artificial Intelligence (ITAI) is a global and cross functional team working 
 
 <div class="cv-entry">
   <h3 class="project-title">Developed an automated forecasting workflow of claims data from US healthcare system</h3>
-  <p class="project-duration"><code>2017‑2018</code></p>
-  <h4 class="project-role">Lead Data Scientist, US Finance and claims, UCB</h4>
+  <div class="table-without-border">
+    <div class="table-row">
+      <div class="table-cell">
+        <p>Lead Data Scientist, US Finance and claims, UCB</p>
+      </div>
+      <div class="table-cell">
+        <p>2017‑2018</p>
+      </div>
+    </div>
+  </div>
   <ul class="project-details">
     <li><strong>Achievements:</strong>
       <ul>
@@ -183,8 +221,16 @@ IT Artificial Intelligence (ITAI) is a global and cross functional team working 
 
 <div class="cv-entry">
   <h3 class="project-title">Hands‑on workshop to demystify Artificial intelligence and Machine Learning</h3>
-  <p class="project-role">Data science instructor, IT departments US, EU, UCB</p>
-  <p class="project-duration">May‑ June 2017</p>
+  <div class="table-without-border">
+    <div class="table-row">
+      <div class="table-cell">
+        <p>Data science instructor, IT departments US, EU, UCB</p>
+      </div>
+      <div class="table-cell">
+        <p>May‑ June 2017</p>
+      </div>
+    </div>
+  </div>
   <ul class="project-details">
     <li><strong>Achievements:</strong>
       <ul>

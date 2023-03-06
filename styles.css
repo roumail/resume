@@ -1,8 +1,8 @@
 h1,h2,h3,h4,body,p,a, table, td,tr {
   font-family: Avenir,Verdana,sans-serif;
-  /* margin: 0; */
 	padding: 0;
 	border: 0;
+  margin: 5;
 }
 body {
   font-size: 14px;
@@ -16,37 +16,25 @@ h1 {
 	line-height: 1em;
 	position: relative;
   font-weight: bold;
-  margin: 0 0 20px;
 }
 
 h2 {
   font-size: 24px;
   font-weight: bold;
   color: #bc412b;
-  margin: 0 0 15px;
 }
 
 h3 {
   font-size: 18px;
   font-weight: bold;
   color: #c3513d;
-  margin: 0 0 10px;
 }
 
 h4 {
   font-size: 16px;
   font-weight: bold;
-  margin: 0 0 10px;
 }
 
-p {
-  margin: 0 0 15px;
-}
-
-ul {
-  margin: 0 0 15px;
-  padding: 0 0 0 20px;
-}
 a {
 	color: inherit;
 	/*text-decoration:none*/
@@ -64,17 +52,8 @@ a:hover {
 }
 
 /*Entries for education */
-.edu-entry {
-  margin-bottom: 20px;
-}
-
-.edu-name {
-  margin-bottom: 5px;
-}
-
 .edu-duration {
   font-style: italic;
-  margin-bottom: 5px;
   text-align: right;
   right: -20%;
 }
@@ -84,24 +63,46 @@ a:hover {
 }
 
 /*Entries for CV entry */
-.cv-entry {
-  margin-bottom: 20px;
+
+.table-without-border {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
-.project-title {
-  margin-bottom: 5px;
+.table-row {
+  display: table-row;
 }
 
-.project-duration {
-  font-style: italic;
-  margin-bottom: 5px;
-  text-align: right;
-  right: -20%;
+.table-cell {
+  display: table-cell;
+  border: none;
 }
 
-.project-role {
-  margin-bottom: 5px;
+.table-cell:first-child {
+  width: 80%;
   text-align: left;
+  font-weight: bold;
+}
+
+.table-cell:last-child {
+  width: 20%;
+  text-align: right;
+}
+
+
+.cv-entry {
+  margin-bottom: 5px;
+}
+
+.cv-entry h3,
+.cv-entry h4 {
+  margin-bottom: 5px;
+}
+
+.cv-entry ul {
+  margin-bottom: 0px;
 }
 
 .project-details {
