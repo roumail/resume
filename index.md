@@ -1,11 +1,11 @@
 ---
 title: Rohail Taimour
 ---
-<head>
-  <link rel="stylesheet" type="text/css" href="styles.css">
-</head>
 
-<!-- <img style="float:left" src="/data/closeup-Photo.jpeg">  -->
+<link rel="stylesheet" type="text/css" href="styles.css">
+
+
+<img style="float:right" src="/data/closeup-Photo.jpeg">
 
 # Rohail Taimour
 Contract Data Scientist | Statistician | Python/R for AI/Machine Learning   
@@ -24,17 +24,18 @@ Experienced data scientist with an expertise in working on data products that ha
 ## Education
 
 <div class="edu-entry">
-  <h3 class="edu-name">MSc in Statistics ‑ Cum Laude, KU Leuven, Leuven, Belgium</h3>
-  <p class="edu-duration"><code>2014-2016</code></p>
+  <p class="edu-name">MSc in Statistics ‑ Cum Laude, KU Leuven, Leuven, Belgium</p>
+  <p class="edu-duration">2014-2016</p>
   <ul class="edu-comments">
     <li>Master’s thesis on continuous optimization of production processes in <strong>MATLAB</strong></li>
+    <li>Treasurer for University Adventure Society organizing hiking trips for groups of upto 300 people in North of Pakistan</li>
   </ul>
 </div>
 
 
 <div class="edu-entry">
-  <h3 class="edu-name">BSc (Hons.) in Accounting and Finance, Lahore University of Management Sciences (LUMS), Lahore, Pakistan</h3>
-  <p class="edu-duration"><code>2010-2014</code></p>
+  <p class="edu-name">BSc (Hons.) in Accounting and Finance, Lahore University of Management Sciences (LUMS), Lahore, Pakistan</p>
+  <p class="edu-duration">2010-2014</p>
   <ul class="edu-comments">
     <li>Graduated with Distinction (3.6/4.0)</li>
     <li>Courses: Operations Research, Supply Chain, Decision analysis, Applied Probability </li>
@@ -174,8 +175,8 @@ IT Artificial Intelligence (ITAI) is a global and cross functional team working 
 
 <div class="cv-entry">
   <h3 class="project-title">Hands‑on workshop to demystify Artificial intelligence and Machine Learning</h3>
-  <p class="project-duration"><code>May‑ June 2017</code></p>
-  <h4 class="project-role">Data science instructor, IT departments US, EU, UCB</h4>
+  <p class="project-role">Data science instructor, IT departments US, EU, UCB</p>
+  <p class="project-duration">May‑ June 2017</p>
   <ul class="project-details">
     <li><strong>Achievements:</strong>
       <ul>
@@ -195,32 +196,54 @@ IT Artificial Intelligence (ITAI) is a global and cross functional team working 
 
 ## Technology stack and competencies
 
-### Development environment
-__Preferred python packages:__ pandas, pymc3, kedro, scikit‑learn, sktime, seaborn   
-__OS:__ Windows, MacOS, Linux (Redhat/Ubuntu)   
-__IDE:__ Pycharm, VScode, Rstudio, jupyter notebooks, Azure data bricks, Docker containers   
-__code quality:__ black, pre‑commit, isort, typing  
-git flow branching for collaboration using git  
-AWS s3/Azure blob for project related data exchange  
-Azure pipelines for CI/CD and testing  
-conda, mamba, pip for project dependencies  
-MLflow for experiment tracking, model and artifact management, serving predictions  
+<table border="0">
+ <tr>
+    <td><h3>Development environment</h3></td>
+    <td><h3>Machine Learning models</h3></td>
+ </tr>
+ <tr>
+    <td>
+      <li> Preferred python packages: pandas, pymc3, kedro, scikit‑learn, sktime, seaborn</li>   
+      <li>  OS: Windows, MacOS, Linux (Redhat/Ubuntu)</li>   
+      <li>  IDE: Pycharm, VScode, Rstudio, jupyter notebooks, Azure data bricks, Docker containers</li>   
+      <li>  code quality: black, pre‑commit, isort, typing</li>  
+      <li> git flow branching for collaboration using git </li> 
+      <li> AWS s3/Azure blob for project related data exchange</li>  
+      <li> Azure pipelines for CI/CD and testing</li>  
+      <li> conda, mamba, pip for project dependencies</li>  
+      <li> MLflow for experiment tracking, model and artifact management, serving predictions </li> 
+      </td>
+    <td>
+      <li> Regression, classification, clustering using classical statistical methods</li>   
+      <li> Machine learning approaches (tree‑based methods such as XGboost, Random Forest etc) on tabliar data</li>   
+      <li> Time series forecasting, clustering, aggregation using bary centers</li>   
+      <li> Probablistic programming, montecarlo simliation and bayesian statistics</li>  
+      <li> Natural language processing (NLP) text embeddings, Named entity Recognition (NER), sentiment/topic analysis  </li> 
+      </td>
+ </tr>
+</table>
 
-### Machine Learning models
-Regression, classification, clustering using classical statistical  
-Machine learning approaches (tree‑based methods such as XGboost, Random Forest etc) on tabular data  
-Time series forecasting, clustering, aggregation using bary centers  
-Probablistic programming, montecarlo simulation and bayesian statistics  
-Natural language processing (NLP) text embeddings, Named entity Recognition (NER), sentiment/topic analysis  
 
-### Soft skills
-
-Driven, proactive, dynamic, can‑do attitude  
-Diverse educational/work experience: accounting and finance, supply chain, statistics, data science  
-Quick study for different business use cases, technology stacks, (machine learning) methods  
-Strong communication skills and ability to deliver to deadlines  
-Can work autonomously, as well as within a team  
-Experienced in Agile rituals and breaking down complex requirements into achievable milestones  
+<table border="0">
+ <tr>
+    <td><h3>Soft skills</h3></td>
+    <td><h3>Certifications</h3></td>
+ </tr>
+ <tr>
+    <td>
+      <li> Driven, proactive, dynamic, can‑do attitude</li> 
+      <li> Diverse educational/work experience: accounting and finance, supply chain, statistics, data science</li> 
+      <li> Quick study for different business use cases, technology stacks, (machine learning) methods</li> 
+      <li> Strong communication skills and ability to deliver to deadlines</li> 
+      <li> Can work autonomously, as well as within a team</li> 
+      <li> Experienced in Agile rituals and breaking down complex requirements into achievable milestones</li>
+      </td>
+    <td>
+      <li> Python: ‘Software engineering for Data scientists’ (2019) from Ian Ozsvald (PyData London)</li>   
+      <li> R: ‘Advanced R Programming’ (2014) from Belgian Open Source Analytical Consultants (BNOSAC)</li>   
+      </td>
+ </tr>
+</table>
 
 ## Miscellaneous
 
@@ -231,12 +254,6 @@ Experienced in Agile rituals and breaking down complex requirements into achieva
 *  __Mobility__: Driving Licence available, flexible for hybrid setup with up to 4 days on site  
 *  __Availability__: Immediately
 * __Hobbies__: Drumming and percussion instruments, Bouldering/Climbing, productivity, Squash, reading
-
-### Certifications
-
-__Python__: __‘Software engineering for Data scientists’__ (2019) from Ian Ozsvald (PyData London)  
-
-__R__: __‘Advanced R Programming’__ (2014) from Belgian Open Source Analytical Consultants (BNOSAC)   
 
 ### Personal project
 
