@@ -58,7 +58,7 @@ Experienced data scientist with an expertise in working on data products that ha
 ## Freelance projects (Oct 2022-present) 
 
 <div class="cv-entry">
-  <h3 class="project-title">Design and implement information retrieval methods using Natural language processing (NLP) on incoming emails</h3>
+  <h3 class="project-title">Design and implement information retrieval methods using Natural language processing (NLP)</h3>
   <div class="table-without-border">
     <div class="table-row">
       <div class="table-cell">
@@ -93,7 +93,7 @@ Experienced data scientist with an expertise in working on data products that ha
 IT Artificial Intelligence (ITAI) is a global and cross functional team working across different use cases in the pharmaceutical industry from commercial (go to market), finance, manufacturing, to drug development and adverse event reporting. Our projects used a modern stack consisting of <strong>Docker</strong> as a consistent development environment, <strong>Amazon AWS</strong> for hosting analytic workflows, <strong>Microsoft Azure</strong> for CI/CD pipelines and git versioning.
 
 <div class="cv-entry">
-  <h3 class="project-title">Yield optimization and design of experiments for batch and continuous production processes using Machine Learning in Python</h3>
+  <h3 class="project-title">Yield optimization for batch and continuous production processes using Machine Learning in Python</h3>
   <div class="table-without-border">
     <div class="table-row">
       <div class="table-cell">

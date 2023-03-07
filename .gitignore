@@ -3,3 +3,4 @@ _site/
 data/*
 !data/closeup-Photo.jpeg
 *.pdf
+.DS_Store
