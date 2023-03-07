@@ -55,6 +55,61 @@ Experienced data scientist with an expertise in working on data products that ha
 *  __Availability__: Immediately
 * __Hobbies__: Drumming and percussion instruments, Bouldering/Climbing, productivity, Squash, reading
 
+## Technology stack and competencies
+
+<table border="0">
+  <tr>
+    <td><h3>Development environment</h3></td>
+    <td><h3>Machine Learning models</h3></td>
+  </tr>
+  <tr>
+    <td>
+      <ul>
+        <li>Preferred python packages: pandas, pymc3, kedro, scikit-learn, sktime, seaborn</li>
+        <li>OS: Windows, MacOS, Linux (Redhat/Ubuntu)</li>
+        <li>IDE: Pycharm, VScode, Rstudio, jupyter notebooks, Azure data bricks, Docker containers</li>
+        <li>code quality: black, pre-commit, isort, typing</li>
+        <li>git flow branching for collaboration using git</li>
+        <li>AWS s3/Azure blob for project related data exchange</li>
+        <li>Azure pipelines for CI/CD and testing</li>
+        <li>conda, mamba, pip for project dependencies</li>
+        <li>MLflow for experiment tracking, model and artifact management, serving predictions</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>Regression, classification, clustering using classical statistical methods</li>
+        <li>Machine learning approaches (tree-based methods such as XGboost, Random Forest etc) on tabular data</li>
+        <li>Time series forecasting, clustering, aggregation using bary centers</li>
+        <li>Probabilistic programming, Monte Carlo simulation and Bayesian statistics</li>
+        <li>Natural language processing (NLP) text embeddings, Named entity Recognition (NER), sentiment/topic analysis</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td><h3>Soft skills</h3></td>
+    <td><h3>Certifications</h3></td>
+  </tr>
+  <tr>
+    <td>
+      <ul>
+        <li>Driven, proactive, dynamic, can-do attitude</li>
+        <li>Diverse educational/work experience: accounting and finance, supply chain, statistics, data science</li>
+        <li>Quick study for different business use cases, technology stacks, (machine learning) methods</li>
+        <li>Strong communication skills and ability to deliver to deadlines</li>
+        <li>Can work autonomously, as well as within a team</li>
+        <li>Experienced in Agile rituals and breaking down complex requirements into achievable milestones</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li><strong>Python</strong>: 'Software engineering for Data scientists' (2019) from Ian Ozsvald (PyData London)</li>
+        <li><strong>R</strong>: 'Advanced R Programming' (2014) from Belgian Open Source Analytical Consultants (BNOSAC)</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
 ## Freelance projects (Oct 2022-present) 
 
 <div class="cv-entry">
@@ -253,63 +308,6 @@ IT Artificial Intelligence (ITAI) is a global and cross functional team working 
     </li>
   </ul>
 </div>
-
-
-## Technology stack and competencies
-
-<table border="0">
-  <tr>
-    <td><h3>Development environment</h3></td>
-    <td><h3>Machine Learning models</h3></td>
-  </tr>
-  <tr>
-    <td>
-      <ul>
-        <li>Preferred python packages: pandas, pymc3, kedro, scikit-learn, sktime, seaborn</li>
-        <li>OS: Windows, MacOS, Linux (Redhat/Ubuntu)</li>
-        <li>IDE: Pycharm, VScode, Rstudio, jupyter notebooks, Azure data bricks, Docker containers</li>
-        <li>code quality: black, pre-commit, isort, typing</li>
-        <li>git flow branching for collaboration using git</li>
-        <li>AWS s3/Azure blob for project related data exchange</li>
-        <li>Azure pipelines for CI/CD and testing</li>
-        <li>conda, mamba, pip for project dependencies</li>
-        <li>MLflow for experiment tracking, model and artifact management, serving predictions</li>
-      </ul>
-    </td>
-    <td>
-      <ul>
-        <li>Regression, classification, clustering using classical statistical methods</li>
-        <li>Machine learning approaches (tree-based methods such as XGboost, Random Forest etc) on tabular data</li>
-        <li>Time series forecasting, clustering, aggregation using bary centers</li>
-        <li>Probabilistic programming, Monte Carlo simulation and Bayesian statistics</li>
-        <li>Natural language processing (NLP) text embeddings, Named entity Recognition (NER), sentiment/topic analysis</li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td><h3>Soft skills</h3></td>
-    <td><h3>Certifications</h3></td>
-  </tr>
-  <tr>
-    <td>
-      <ul>
-        <li>Driven, proactive, dynamic, can-do attitude</li>
-        <li>Diverse educational/work experience: accounting and finance, supply chain, statistics, data science</li>
-        <li>Quick study for different business use cases, technology stacks, (machine learning) methods</li>
-        <li>Strong communication skills and ability to deliver to deadlines</li>
-        <li>Can work autonomously, as well as within a team</li>
-        <li>Experienced in Agile rituals and breaking down complex requirements into achievable milestones</li>
-      </ul>
-    </td>
-    <td>
-      <ul>
-        <li><strong>Python</strong>: 'Software engineering for Data scientists' (2019) from Ian Ozsvald (PyData London)</li>
-        <li><strong>R</strong>: 'Advanced R Programming' (2014) from Belgian Open Source Analytical Consultants (BNOSAC)</li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
 
 ## Personal projects
 
