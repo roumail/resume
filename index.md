@@ -65,14 +65,15 @@ Experienced data scientist with an expertise in working on data products that ha
   <tr>
     <td>
       <ul>
-        <li>Preferred python packages: pandas, pymc3, kedro, scikit-learn, sktime, seaborn</li>
+        <li>Preferred python packages: pandas, pymc3, kedro, scikit-learn, sktime, seaborn, pytest, click</li>
         <li>OS: Windows, MacOS, Linux (Redhat/Ubuntu)</li>
-        <li>IDE: Pycharm, VScode, Rstudio, jupyter notebooks, Azure data bricks, Docker containers</li>
-        <li>code quality: black, pre-commit, isort, typing</li>
-        <li>git flow branching for collaboration using git</li>
-        <li>AWS s3/Azure blob for project related data exchange</li>
-        <li>Azure pipelines for CI/CD and testing</li>
-        <li>conda, mamba, pip for project dependencies</li>
+        <li>IDE: Pycharm, VScode, Rstudio, jupyter notebooks, Azure databricks</li>
+        <li>Virtualization and Containerization Tools: Docker</li>
+        <li>Code quality: black, pre-commit, isort, typing, flake8, mypy</li>
+        <li>Version Control and CI/CD Tools: Git, GitHub/Azure Pipelines, GitHub CLI tools and Git flow branching</li>
+        <li>Cloud platforms: AWS (S3, EC2), Azure (Blob, Databricks, Pipelines)</li>
+        <li>Package and dependency management: conda, mamba, pip, Poetry</li>
+        <li>Databases: SQLite3, Neo4j</li>
         <li>MLflow for experiment tracking, model and artifact management, serving predictions</li>
       </ul>
     </td>
@@ -111,6 +112,39 @@ Experienced data scientist with an expertise in working on data products that ha
 </table>
 
 ## Freelance projects (Oct 2022-present) 
+
+<div class="cv-entry">
+  <h3 class="project-title">Development and Implementation of a Configurable Bioinformatics Pipeline for Event-Triggered Secondary Analysis of Sequencing Data Using Python and Docker</h3>
+  <div class="table-without-border">
+    <div class="table-row">
+      <div class="table-cell">
+        <p>Python Software Engineer & Data Pipeline Architect, Illumina, Mechelen, Belgium</p>
+      </div>
+      <div class="table-cell">
+        <p>April 2023 - Present</p>
+      </div>
+    </div>
+  </div>
+  <ul class="project-details">
+    <li><strong>Achievements:</strong>
+      <ul>
+        <li>Engineered a robust Python package, incorporating features such as advanced logging, exception handling, and automated testing, enhancing software reliability and maintainability.</li>
+        <li>Implemented a Docker-based solution for the analysis process, facilitating seamless data exchange and enhancing the reproducibility and scalability.</li>
+        <li>Developed a configurable multi-stage pipeline for secondary analysis, providing an intuitive user interface that abstracted the complexity of the underlying data pipeline.</li>
+        <li>Designed and implemented an event-driven system that actively monitored for new sequencing data, triggering corresponding analyses upon detection of state changes, thereby ensuring timely and efficient processing of data.</li>
+      </ul>
+    </li>
+    <li><strong>Responsibilities:</strong>
+      <ul>
+        <li>Provided guidance on automation strategies, leveraging CLI tools and API calls to enhance interoperability between Illumina platforms ICA and Basespace.</li>
+        <li>Orchestrated the interaction between various services through ORM mapping, creating a simplified interface that abstracted the complexity of the underlying systems.</li>
+        <li>Implemented unit testing using pytest and implemented fail-safe mechanisms for robust error handling.</li>
+        <li>Optimized pipeline performance by implementing an SQLite database for tracking previously launched analyses, enabling the pipeline to function as a daemon with persistent memory.</li>
+        <li>Produced comprehensive and accessible documentation using pandoc and markdown, facilitating understanding and usage of the pipeline across the organization.</li>
+      </ul>
+    </li>
+  </ul>
+</div>
 
 <div class="cv-entry">
   <h3 class="project-title">Design and implement information retrieval methods using Natural language processing (NLP)</h3>
