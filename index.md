@@ -6,7 +6,7 @@ title: Rohail Taimour
 <img style="float:right" src="data/closeup-Photo.jpeg">
 
 # Rohail Taimour
-Contract Data Scientist | Statistician | Python/R for AI/Machine Learning   
+Python/R Software Engineer | Contract Data Scientist | Statistician | AI/Machine Learning Specialist
 1040, Brussels, Belgium
 
 <div id="webaddress">
@@ -74,6 +74,7 @@ Experienced data scientist with an expertise in working on data products that ha
         <li>Cloud platforms: AWS (S3, EC2), Azure (Blob, Databricks, Pipelines)</li>
         <li>Package and dependency management: conda, mamba, pip, Poetry</li>
         <li>Databases: SQLite3, Neo4j</li>
+        <li>Documentation and Web Development Tools: Pandoc, Markdown, sphinx, CSS, HTML</li> 
         <li>MLflow for experiment tracking, model and artifact management, serving predictions</li>
       </ul>
     </td>
@@ -129,18 +130,18 @@ Experienced data scientist with an expertise in working on data products that ha
     <li><strong>Achievements:</strong>
       <ul>
         <li>Engineered a robust Python package, incorporating features such as advanced logging, exception handling, and automated testing, enhancing software reliability and maintainability.</li>
-        <li>Implemented a Docker-based solution for the analysis process, facilitating seamless data exchange and enhancing the reproducibility and scalability.</li>
+        <li>Implemented a <strong>Docker</strong>-based solution for the analysis process, facilitating seamless data exchange and enhancing the reproducibility and scalability.</li>
         <li>Developed a configurable multi-stage pipeline for secondary analysis, providing an intuitive user interface that abstracted the complexity of the underlying data pipeline.</li>
         <li>Designed and implemented an event-driven system that actively monitored for new sequencing data, triggering corresponding analyses upon detection of state changes, thereby ensuring timely and efficient processing of data.</li>
       </ul>
     </li>
     <li><strong>Responsibilities:</strong>
       <ul>
-        <li>Provided guidance on automation strategies, leveraging CLI tools and API calls to enhance interoperability between Illumina platforms ICA and Basespace.</li>
-        <li>Orchestrated the interaction between various services through ORM mapping, creating a simplified interface that abstracted the complexity of the underlying systems.</li>
-        <li>Implemented unit testing using pytest and implemented fail-safe mechanisms for robust error handling.</li>
-        <li>Optimized pipeline performance by implementing an SQLite database for tracking previously launched analyses, enabling the pipeline to function as a daemon with persistent memory.</li>
-        <li>Produced comprehensive and accessible documentation using pandoc and markdown, facilitating understanding and usage of the pipeline across the organization.</li>
+        <li>Provided guidance on automation strategies, leveraging CLI tools and API calls to enhance interoperability between Illumina platforms <strong>ICA</strong> and <strong>Basespace</strong>.</li>
+        <li>Orchestrated the interaction between various services through <strong>ORM</strong> mapping, creating a simplified interface that abstracted the complexity of the underlying systems.</li>
+        <li>Implemented unit testing using <strong>pytest</strong> and implemented fail-safe mechanisms for robust error handling.</li>
+        <li>Optimized pipeline performance by implementing an <strong>SQLite</strong> database for tracking previously launched analyses, enabling the pipeline to function as a daemon with persistent memory.</li>
+        <li>Produced comprehensive and accessible documentation using <strong>pandoc</strong> and <strong>markdown</strong>, facilitating understanding and usage of the pipeline across the organization.</li>
       </ul>
     </li>
   </ul>
