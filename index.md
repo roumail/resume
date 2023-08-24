@@ -72,8 +72,8 @@ Experienced data scientist with an expertise in working on data products that ha
         <li>Code quality: black, pre-commit, isort, typing, flake8, mypy</li>
         <li>Version Control and CI/CD Tools: Git, GitHub/Azure Pipelines, GitHub CLI tools and Git flow branching</li>
         <li>Cloud platforms: AWS (S3, EC2), Azure (Blob, Databricks, Pipelines)</li>
-        <li>Package and dependency management: conda, mamba, pip, Poetry</li>
-        <li>Databases: SQLite3, Neo4j</li>
+        <li>Python Packaging: conda, mamba, pip, poetry</li>
+        <li>Databases: Postgresql, SQLite3, Neo4j, sqlalchemy</li>
         <li>Documentation and Web Development Tools: Pandoc, Markdown, sphinx, CSS, HTML</li> 
         <li>MLflow for experiment tracking, model and artifact management, serving predictions</li>
       </ul>
@@ -88,6 +88,11 @@ Experienced data scientist with an expertise in working on data products that ha
       </ul>
     </td>
   </tr>
+</table>
+
+<div style="page-break-after: always;"></div>
+
+<table border="0">
   <tr>
     <td><h3>Soft skills</h3></td>
     <td><h3>Certifications</h3></td>
