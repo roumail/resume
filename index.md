@@ -65,7 +65,7 @@ Experienced data scientist with an expertise in working on data products that ha
   <tr>
     <td>
       <ul>
-        <li>Preferred python packages: pandas, pymc3, kedro, scikit-learn, sktime, seaborn, pytest, click</li>
+        <li>Preferred python packages: pandas, pymc3, kedro, scikit-learn, sktime, seaborn, pytest, click, typer</li>
         <li>OS: Windows, MacOS, Linux (Redhat/Ubuntu)</li>
         <li>IDE: Pycharm, VScode, Rstudio, jupyter notebooks, Azure databricks</li>
         <li>Virtualization and Containerization Tools: Docker</li>
