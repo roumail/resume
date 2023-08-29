@@ -165,8 +165,6 @@ title: Rohail Taimour
         </li>
         <li><strong>Responsibilities:</strong>
           <ul>
-            <li>Deliver a two-hour presentation weekly on insights from data, focusing on driving engagement and discussion within the process experts</li>
-            <li>Deliver biweekly sprint review update on deliverables status</li>
             <li>Analyze time series data collected from equipment sensors and visually summarize golden batch insights</li>
             <li>Performed a thorough model validation and hyperparameter tuning exercise before recommending model insights be tested in a live production environment</li>
             <li>Created (bayesian) and tree-based regression models to quantify impact of process changes and predict batch performance</li>
@@ -198,11 +196,7 @@ title: Rohail Taimour
         </li>
         <li><strong>Responsibilities:</strong>
           <ul>
-            <li>Facilitate timeline and feasibility assessment for data science component together with the project manager</li>
-            <li>Populate backlog with data science tasks during dailies and help prioritize to support timely deliveries</li>
             <li>Investigated adaptations to data science methodology for country/product specificities for maximum reusability</li>
-            <li>Deliver biweekly sprint review update on deliverables status</li>
-            <li>Validated ingested data using data visualization methods and discussions with subject matter experts</li>
             <li>Supported data engineers in the creation of features using <strong>pyspark</strong></li>
             <li>Created customer segmentation models and proposed optimal resource allocation based on customer responsiveness to different channels</li>
             <li>Developed a framework for logging model versions, data inputs, predictions and other model artifacts to a dashboard to facilitate discussion with the team and our stakeholders</li>
@@ -231,12 +225,8 @@ title: Rohail Taimour
         </li>
         <li><strong>Responsibilities:</strong>
           <ul>
-            <li>Introduce stakeholders to our product offering and understand their needs</li>
-            <li>Prioritized request backlog, make request feasibility assessments for customisations and communicate timelines</li>
             <li>Define product roadmap to increase our capacity for taking in requests by improving the software foundations of our data product</li>
-            <li>Create custom databases for each new request, ingesting additional data sources to quantify influence, as needed</li>
-            <li>Provided customized KOL ranking/profiling reports and presentations based on stakeholder requirements</li>
-            <li>Performed data quality checks by querying the database using <strong>Cypher</strong> from the Web UI as well as <strong>jupyter notebooks</strong></li>
+            <li>Create custom databases ingesting additional data sources to provided KOL ranking/profiling reports based on stakeholder requirements</li>
             <li>Made network visualizations using <strong>networkx</strong>, Cytoscape and performed custom analysis</li>
           </ul>
         </li>
