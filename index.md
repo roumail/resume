@@ -6,7 +6,7 @@ title: Rohail Taimour
 
 <div class="cv-container">
   <div class="sidebar">
-    <div style="display: flex; align-items: flex-start; flex-wrap: wrap;">
+    <div>
       <img src="data/closeup-Photo.jpeg" style="width: 150px; height: auto; margin-right: 10px;">
       <div>
          <p style="margin: 0; font-weight: bold; font-size: 18px; color: #bc412b;">
@@ -317,7 +317,5 @@ title: Rohail Taimour
     </ul>  
   </div>
 </div>
-
-<!-- ### Footer Last updated: May 2013 -->
 
 

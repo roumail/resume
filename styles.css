@@ -120,26 +120,21 @@ td {
 }
 
 .cv-container {
-  display: -webkit-box; /* wkhtmltopdf uses this one */
-  display: flex;
-  -webkit-box-pack: start; /* wkhtmltopdf uses this one */
-  justify-content: flex-start;
+  display: table;
+  width: 100%;
 }
 
 .sidebar, .main-content {
-  -webkit-box-flex: 1;
-  -webkit-flex: 1;
-  flex: 1;
+  display: table-cell;
 }
 
 .sidebar {
-  -webkit-box-flex: 0; /* This means that this item won't grow relative to the rest of the flexible items */
-  flex: 0 0 30%; /* This means that this item won't grow or shrink, staying at 30% of the parent container */
+  width: 30%; /* This means that this item will take up 20% of the parent container */
   background-color: #f4f4f4;
   padding: 15px;
+  box-sizing: border-box;
 }
 
 .main-content {
-  -webkit-box-flex: 1; /* This means that this item will grow to take up all remaining space */
-  flex: 1; /* This means that this item will grow to take up all remaining space */
+  width: 70%; /* This means that this item will take up the remaining 80% of the parent container */
 }
