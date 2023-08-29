@@ -64,7 +64,36 @@ title: Rohail Taimour
     Experienced data scientist with an expertise in working on data products that have a machine learning focus. I am able to play a dynamic role between data scientist/machine learning engineer and data engineer given the needs of the project. I am passionate about adopting development best practices wherever possible and am comfortable working in an ambiguous and fast changing environment, laser focused on delivering user requirements in an agile manner.
     <h2> Freelance projects (Oct 2022-present) </h2>
     <div class="cv-entry">
-      <h3 class="project-title">Development and Implementation of a Configurable Bioinformatics Pipeline for Event-Triggered Secondary Analysis of Sequencing Data Using Python and Docker</h3>
+      <h3 class="project-title">Automated SQL Script Generation for Cross-Platform Data Migration</h3>
+      <div class="table-without-border">
+        <div class="table-row">
+          <div class="table-cell">
+            <p>Python Software Engineer, Illumina, Mechelen, Belgium</p>
+          </div>
+          <div class="table-cell">
+            <p>July-Aug 2023</p>
+          </div>
+        </div>
+      </div>
+      <ul class="project-details">
+        <li><strong>Achievements:</strong>
+          <ul>
+            <li>Architected and Developed an ORM Mapper for dynamic ingestion of various file formats, automating the SQL script generation process for data migration.</li>
+            <li>Designed and implemented a Python package encapsulating the entire data migration logic, further enhanced by Docker containerization for portability and ease of deployment.</li>
+            <li>Conducted comprehensive testing of generated SQL scripts using mock PostgreSQL database tables, ensuring script accuracy and reliability.</li>
+          </ul>
+        </li>
+        <li><strong>Responsibilities:</strong>
+          <ul>
+            <li>Implemented thorough testing protocols to ensure the reliability of generated SQL scripts before distribution.</li>
+            <li>Designed codebase for minimal input requirements.</li>
+            <li>Parameterized key inputs to enable flexible deployment across various database instances (Dev, Integration, Prod).</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="cv-entry">
+      <h3 class="project-title">Configurable Bioinformatics Pipeline for Event-Triggered Secondary Analysis of Sequencing Data Using Python and Docker</h3>
       <div class="table-without-border">
         <div class="table-row">
           <div class="table-cell">
