@@ -1,38 +1,77 @@
 <div class="cv-container">
-  <div class="sidebar">
-    <div class="profile">
-      <img src="{{ sidebar.photo }}" alt="Profile Photo">
-      <div class="info">
-        <p class="title">{{ sidebar.title }}</p>
-        <p class="location">{{ sidebar.location }}</p>
-        <p class="contact">{{ sidebar.contact }}</p>
+  <div class="sidebar" style="display: flex; flex-direction: column;">
+    <div style="display: flex; align-items: flex-start; flex-wrap: wrap;">
+      <img src="{{ sidebar.photo }}" style="width: 150px; height: auto; margin-right: 10px;">
+      <div>
+        <p style="margin: 0; font-weight: bold; font-size: 18px; color: #bc412b;">{{ sidebar.title }}</p>
+        <p style="margin: 0;">{{ sidebar.address }}</p>
+         <p style="margin: 0;">
+          {{ sidebar.contact }} |
+          <a href="{{ sidebar.linkedin }}">Linkedin</a> |
+          <a href="{{ sidebar.github }}">Github</a>
+        </p>
       </div>
     </div>
     <h2>Education</h2>
-    {% for edu in sidebar.education %}
-      <div class="sidebar-edu-entry">
-        <strong>{{ edu.degree }}</strong> - <span>{{ edu.institution }}</span> - <span>{{ edu.years }}</span>
-        <ul class="sidebar-edu-comments">
-          {% for comment in edu.comments %}
-            <li>{{ comment }}</li>
-          {% endfor %}
-        </ul>
-      </div>
+  {% for edu in sidebar.education %}
+    <div class="sidebar-edu-entry">
+      <strong>{{ edu.degree }}</strong> - <span>{{ edu.institution }}</span> - <span>{{ edu.year }}</span>
+      <ul class="sidebar-edu-comments">
+        {% for comment in edu.comments %}
+          <li>{{ comment|safe }}</li>  <!-- Use the safe filter if you're sure the comments are safe HTML -->
+        {% endfor %}
+      </ul>
+    </div>
+  {% endfor %}
+  <h2>Technical competencies</h2>
+  <ul>
+    {% for competency in sidebar.technical_competencies %}
+      <li>{{ competency }}</li>
     {% endfor %}
-    <!-- Add other sidebar sections like Technical competencies, Personal details, etc. -->
-  </div>
+  </ul>
+  <h2>Personal details</h2>
+  <ul>
+    {% for detail in sidebar.personal_details %}
+      <li>{{ detail.key }}: {{ detail.value }}</li>  <!-- Assumes each detail is a dictionary with 'key' and 'value' -->
+    {% endfor %}
+  </ul>
+</div>
 
   <div class="main-content">
-    <h1>{{ main_content.name }}</h1>
+    <h1 style="margin: 0;">{{ main_content.name }}</h1>
     <h2>Summary</h2>
     <p>{{ main_content.summary }}</p>
-
     {% for section in main_content.sections %}
       <h2>{{ section.title }}</h2>
       {% for entry in section.entries %}
         <div class="cv-entry">
           <h3 class="project-title">{{ entry.project_title }}</h3>
-          <!-- Add other fields like table, achievements, responsibilities, etc. -->
+          <div class="table-without-border">
+            <div class="table-row">
+              <div class="table-cell">
+                <p>{{ entry.position }}</p>
+              </div>
+              <div class="table-cell">
+                <p>{{ entry.duration }}</p>
+              </div>
+            </div>
+          </div>
+          <ul class="project-details">
+            <li><strong>Achievements:</strong>
+              <ul>
+                {% for achievement in entry.achievements %}
+                  <li>{{ achievement }}</li>
+                {% endfor %}
+              </ul>
+            </li>
+            <li><strong>Responsibilities:</strong>
+              <ul>
+                {% for responsibility in entry.responsibilities %}
+                  <li>{{ responsibility }}</li>
+                {% endfor %}
+              </ul>
+            </li>
+          </ul>
         </div>
       {% endfor %}
     {% endfor %}

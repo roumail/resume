@@ -1,0 +1,43 @@
+{
+    "photo": "data/closeup-Photo.jpeg",
+    "title": "Python/R Software Engineer | Contract Data Scientist | Statistician | AI/Machine Learning Specialist",
+    "address": "1040, Brussels, Belgium",
+    "contact": "rohail.taimour@gmail.com | +32 489 83 64 76",
+    "linkedin": "https://www.linkedin.com/in/rohailtaimour/",
+    "github": "https://github.com/roumail",
+    "education": [
+      {
+        "degree": "MSc in Statistics",
+        "institution": "KU Leuven, Leuven, Belgium",
+        "year": "2014-2016",
+        "comments": ["Gradted Cum Laude, Master’s thesis on continuous optimization of production processes in MATLAB"]
+      },
+      {
+        "degree": "BSc (Hons.) in Accounting and Finance",
+        "institution": "Lahore University of Management Sciences (LUMS), Lahore, Pakistan",
+        "year": "2010-2014",
+        "comments": ["Graduated with Distinction (3.6/4.0)", "Courses: Operations Research, Supply Chain, Decision analysis, Applied Probability", "Treasurer for University Adventure Society organizing hiking trips for groups of upto 300 people in North of Pakistan"]
+    }
+    ],
+    "technical_competencies": [
+        "Preferred python packages: pandas, pymc3, kedro, scikit-learn, sktime, seaborn, pytest, click, typer",
+        "OS: Windows, MacOS, Linux (Redhat/Ubuntu)",
+        "IDE: Pycharm, VScode, Rstudio, jupyter notebooks, Azure databricks",
+        "Virtualization and Containerization Tools: Docker",
+        "Code quality: black, pre-commit, isort, typing, flake8, mypy",
+        "Version Control and CI/CD Tools: Git, GitHub/Azure Pipelines, GitHub CLI tools and Git flow branching",
+        "Cloud platforms: AWS (S3, EC2), Azure (Blob, Databricks, Pipelines)",
+        "Python Packaging: conda, mamba, pip, poetry",
+        "Databases: Postgresql, SQLite3, Neo4j, sqlalchemy",
+        "Documentation and Web Development Tools: Pandoc, Markdown, sphinx, CSS, HTML",
+        "Model lifecycle management: MLflow"
+      ],
+      "personal_details": [
+        {"key": "Nationality", "value": "Belgian, Pakistani"},
+        {"key": "Languages", "value": "English (fluent/bilingual), Urdu (Native), French (B1)"},
+        {"key": "Mobility", "value": "Driving Licence available, flexible for hybrid setup with up to 4 days on site"},
+        {"key": "Availability", "value": "Immediately"},
+        {"key": "Hobbies", "value": "Drumming and percussion instruments, Bouldering/Climbing, productivity, Squash, reading"}
+      ]
+  }
+  
