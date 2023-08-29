@@ -47,7 +47,20 @@ a:hover {
 	font-size: 100%;
 }
 
-/*Entries for education */
+.sidebar-edu-entry {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.sidebar-edu-entry strong {
+  font-size: 16px;
+}
+
+.sidebar-edu-comments {
+  margin-left: 20px;
+  font-size: 12px;
+}
+/* Entries for education
 .education-entry {
   display: table;
   width: 100%;
@@ -82,7 +95,7 @@ a:hover {
 
 .edu-comments {
   margin-left: 5px;
-}
+} */
 
 /*Entries for CV subtitle */
 
