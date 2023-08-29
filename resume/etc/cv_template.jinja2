@@ -43,6 +43,9 @@
     <p>{{ main_content.summary }}</p>
     {% for section in main_content.sections %}
       <h2>{{ section.title }}</h2>
+      {% if section.intro %}
+        <p>{{ section.intro }}</p>
+      {% endif %}
       {% for entry in section.entries %}
         <div class="cv-entry">
           <h3 class="project-title">{{ entry.project_title }}</h3>
@@ -75,5 +78,14 @@
         </div>
       {% endfor %}
     {% endfor %}
+    <!-- Special Section for Personal Projects -->
+    <h2>Personal Projects</h2>
+    {% if main_content.personal_projects %}
+      <ul>
+        {% for project in main_content.personal_projects %}
+          <li>{{ project }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
   </div>
 </div>
