@@ -4,3 +4,4 @@ data/*
 !data/closeup-Photo.jpeg
 *.pdf
 .DS_Store
+poetry.lock

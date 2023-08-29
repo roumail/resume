@@ -1,0 +1,40 @@
+<div class="cv-container">
+  <div class="sidebar">
+    <div class="profile">
+      <img src="{{ sidebar.photo }}" alt="Profile Photo">
+      <div class="info">
+        <p class="title">{{ sidebar.title }}</p>
+        <p class="location">{{ sidebar.location }}</p>
+        <p class="contact">{{ sidebar.contact }}</p>
+      </div>
+    </div>
+    <h2>Education</h2>
+    {% for edu in sidebar.education %}
+      <div class="sidebar-edu-entry">
+        <strong>{{ edu.degree }}</strong> - <span>{{ edu.institution }}</span> - <span>{{ edu.years }}</span>
+        <ul class="sidebar-edu-comments">
+          {% for comment in edu.comments %}
+            <li>{{ comment }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endfor %}
+    <!-- Add other sidebar sections like Technical competencies, Personal details, etc. -->
+  </div>
+
+  <div class="main-content">
+    <h1>{{ main_content.name }}</h1>
+    <h2>Summary</h2>
+    <p>{{ main_content.summary }}</p>
+
+    {% for section in main_content.sections %}
+      <h2>{{ section.title }}</h2>
+      {% for entry in section.entries %}
+        <div class="cv-entry">
+          <h3 class="project-title">{{ entry.project_title }}</h3>
+          <!-- Add other fields like table, achievements, responsibilities, etc. -->
+        </div>
+      {% endfor %}
+    {% endfor %}
+  </div>
+</div>
