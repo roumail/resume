@@ -5,7 +5,7 @@ title: Rohail Taimour
 <link rel="stylesheet" type="text/css" href="styles.css">
 
 <div class="cv-container">
-  <div class="sidebar" style="display: flex; flex-direction: column;">
+  <div class="sidebar">
     <div style="display: flex; align-items: flex-start; flex-wrap: wrap;">
       <img src="data/closeup-Photo.jpeg" style="width: 150px; height: auto; margin-right: 10px;">
       <div>
@@ -311,8 +311,10 @@ title: Rohail Taimour
       </ul>
     </div>
     <h2> Personal projects </h2>
-    <li> Developed webscraper in python (Beautiful soup, Selenium) to compare apartments based on price, area, etc </li>   
-    <li> Created a predictive model for whether movie will achieve an imdb rating > 7.5 using best practices for data science projects </li>   
+    <ul>
+      <li> Developed webscraper in python (Beautiful soup, Selenium) to compare apartments based on price, area, etc </li>   
+      <li> Created a predictive model for whether movie will achieve an imdb rating > 7.5 using best practices for data science projects </li> 
+    </ul>  
   </div>
 </div>
 

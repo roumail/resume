@@ -60,44 +60,6 @@ a:hover {
   margin-left: 20px;
   font-size: 12px;
 }
-/* Entries for education
-.education-entry {
-  display: table;
-  width: 100%;
-  table-layout: fixed;
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-.education-entry > div {
-  display: table-cell;
-  padding: 5px;
-}
-
-.education-entry > div:nth-child(1) {
-  width: 30%;
-  font-size: 18px;
-  font-weight: bold;
-  color: #c3513d;
-  text-align: left;
-}
-
-.education-entry > div:nth-child(2) {
-  width: 60%;
-  font-weight: bold;
-  text-align: left;
-}
-
-.education-entry > div:nth-child(3) {
-  width: 10%;
-  text-align: right;
-}
-
-.edu-comments {
-  margin-left: 5px;
-} */
-
-/*Entries for CV subtitle */
 
 .table-without-border {
   display: table;
@@ -157,20 +119,27 @@ td {
   vertical-align: top;
 }
 
-/* Flexbox container for the entire CV */
 .cv-container {
+  display: -webkit-box; /* wkhtmltopdf uses this one */
   display: flex;
+  -webkit-box-pack: start; /* wkhtmltopdf uses this one */
+  justify-content: flex-start;
 }
 
-/* Sidebar styles */
+.sidebar, .main-content {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+}
+
 .sidebar {
-  background-color: #f4f4f4; /* Light gray */
+  -webkit-box-flex: 0; /* This means that this item won't grow relative to the rest of the flexible items */
+  flex: 0 0 30%; /* This means that this item won't grow or shrink, staying at 30% of the parent container */
+  background-color: #f4f4f4;
   padding: 15px;
-  width: 30%; /* Adjust as needed */
-  min-height: 100vh; /* Full height */
 }
 
-/* Main content styles */
 .main-content {
-  flex: 1; /* Takes up the remaining width */
+  -webkit-box-flex: 1; /* This means that this item will grow to take up all remaining space */
+  flex: 1; /* This means that this item will grow to take up all remaining space */
 }
