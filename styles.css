@@ -57,7 +57,6 @@ a:hover {
 }
 
 .sidebar-edu-comments {
-  margin-left: 20px;
   font-size: 12px;
 }
 
@@ -129,12 +128,12 @@ td {
 }
 
 .sidebar {
-  width: 30%; /* This means that this item will take up 20% of the parent container */
+  width: 25%; /* This means that this item will take up 20% of the parent container */
   background-color: #f4f4f4;
-  padding: 15px;
+  padding: 10px;
   box-sizing: border-box;
 }
 
 .main-content {
-  width: 70%; /* This means that this item will take up the remaining 80% of the parent container */
+  width: 75%; /* This means that this item will take up the remaining 80% of the parent container */
 }

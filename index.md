@@ -6,48 +6,38 @@ title: Rohail Taimour
 
 <div class="cv-container">
   <div class="sidebar">
-    <div>
-      <img src="data/closeup-Photo.jpeg" style="width: 150px; height: auto; margin-right: 10px;">
-      <div>
-         <p style="margin: 0; font-weight: bold; font-size: 18px; color: #bc412b;">
-          Python/R Software Engineer | Contract Data Scientist | Statistician | AI/Machine Learning Specialist
-        </p>
-        <p style="margin: 0;">1040, Brussels, Belgium</p>
-        <p style="margin: 0;">
-          rohail.taimour@gmail.com | +32 489 83 64 76 |
-          <a href="https://www.linkedin.com/in/rohailtaimour/">Linkedin</a> |
-          <a href="https://github.com/roumail">Github</a>
-        </p>
-      </div>
-    </div>
+    <p style="margin: 0; font-weight: bold; font-size: 18px; color: #bc412b;">
+    Python/R Software Engineer | Contract Data Scientist | Statistician | AI/Machine Learning Specialist
+    </p>
+    <p style="margin: 0;">1040, Brussels, Belgium</p>
+    <p style="margin: 0;">
+      rohail.taimour@gmail.com | +32 489 83 64 76 |
+      <a href="https://www.linkedin.com/in/rohailtaimour/">Linkedin</a> |
+      <a href="https://github.com/roumail">Github</a>
+    </p>
     <h2 > Education</h2>
       <div class="sidebar-edu-entry">
         <strong>MSc in Statistics</strong> - <span>KU Leuven, Leuven, Belgium</span> - <span>2014-2016</span>
         <ul class="sidebar-edu-comments">
-          <li>Gradted Cum Laude, Master’s thesis on continuous optimization of production processes in <strong>MATLAB</strong></li>
+          <li>Cum Laude Graduation, Master’s thesis on continuous optimization of production processes in <strong>MATLAB</strong></li>
         </ul>
       </div>
       <div class="sidebar-edu-entry">
         <strong>BSc (Hons.) in Accounting and Finance</strong> - <span>Lahore University of Management Sciences (LUMS), Lahore, Pakistan</span> - <span>2010-2014</span>
         <ul class="sidebar-edu-comments">
           <li>Graduated with Distinction (3.6/4.0)</li>
-          <li>Courses: Operations Research, Supply Chain, Decision analysis, Applied Probability </li>
-          <li>Treasurer for University Adventure Society organizing hiking trips for groups of upto 300 people in North of Pakistan</li>
         </ul>
       </div>
     <h2>Technical competencies</h2>
     <ul>
-      <li> <strong>Preferred python packages:</strong> pandas, pymc3, kedro, scikit-learn, sktime, seaborn, pytest, click, typer</li>
+      <li> <strong>Programming:</strong> Python and R (5+ years each)</li>
+      <li> <strong>Virtualization and Containerization:</strong> Docker</li>
       <li> <strong>OS:</strong> Windows, MacOS, Linux (Redhat/Ubuntu)</li>
       <li> <strong>IDE:</strong> Pycharm, VScode, Rstudio, jupyter notebooks, Azure databricks</li>
-      <li> <strong>Virtualization and Containerization Tools:</strong> Docker</li>
-      <li> <strong>Code quality:</strong> black, pre-commit, isort, typing, flake8, mypy</li>
       <li> <strong>Version Control and CI/CD Tools:</strong> Git, GitHub/Azure Pipelines, GitHub CLI tools and Git flow branching</li>
-      <li> <strong>Cloud platforms:</strong> AWS (S3, EC2), Azure (Blob, Databricks, Pipelines)</li>
-      <li> <strong>Python Packaging:</strong> conda, mamba, pip, poetry</li>
+      <li> <strong>Cloud platforms:</strong> AWS, Azure </li>
       <li> <strong>Databases:</strong> Postgresql, SQLite3, Neo4j, sqlalchemy</li>
-      <li> <strong>Documentation and Web Development Tools:</strong> Pandoc, Markdown, sphinx, CSS, HTML</li> 
-      <li> <strong> Model lifecycle management: </strong> MLflow </li>
+      <li> <strong>Documentation and Web Development:</strong> Pandoc, Markdown, sphinx, CSS, HTML</li> 
     </ul>
     <h2>Personal details</h2>
       <ul>
@@ -59,7 +49,7 @@ title: Rohail Taimour
       </ul>
   </div>
   <div class="main-content">
-    <h1 style="margin: 0; "> Rohail Taimour </h1>
+    <h1> Rohail Taimour </h1>
     <h2> Summary </h2>
     Experienced data scientist with an expertise in working on data products that have a machine learning focus. I am able to play a dynamic role between data scientist/machine learning engineer and data engineer given the needs of the project. I am passionate about adopting development best practices wherever possible and am comfortable working in an ambiguous and fast changing environment, laser focused on delivering user requirements in an agile manner.
     <h2> Freelance projects (Oct 2022-present) </h2>
@@ -154,7 +144,6 @@ title: Rohail Taimour
       </ul>
     </div>
     <h2> Data science projects at IT AI team, UCB Pharmaceutical (2016‑Oct 2022) </h2>  
-    IT Artificial Intelligence (ITAI) is a global and cross functional team working across different use cases in the pharmaceutical industry from commercial (go to market), finance, manufacturing, to drug development and adverse event reporting. Our projects used a modern stack consisting of <strong>Docker</strong> as a consistent development environment, <strong>Amazon AWS</strong> for hosting analytic workflows, <strong>Microsoft Azure</strong> for CI/CD pipelines and git versioning.
     <div class="cv-entry">
       <h3 class="project-title">Yield optimization for batch and continuous production processes using Machine Learning in Python</h3>
       <div class="table-without-border">
