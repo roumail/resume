@@ -60,7 +60,6 @@ title: Rohail Taimour
       </div>
       <ul class="edu-comments">
         <li>Gradted Cum Laude, Master’s thesis on continuous optimization of production processes in <strong>MATLAB</strong></li>
-        <li>Treasurer for University Adventure Society organizing hiking trips for groups of upto 300 people in North of Pakistan</li>
       </ul>
     </div>
 
@@ -74,6 +73,7 @@ title: Rohail Taimour
       <ul class="edu-comments">
         <li>Graduated with Distinction (3.6/4.0)</li>
         <li>Courses: Operations Research, Supply Chain, Decision analysis, Applied Probability </li>
+        <li>Treasurer for University Adventure Society organizing hiking trips for groups of upto 300 people in North of Pakistan</li>
       </ul>
     </div>
 
