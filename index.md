@@ -125,9 +125,7 @@ title: Rohail Taimour
       </ul>
     </div>
     <h2> Data science projects at IT AI team, UCB Pharmaceutical (2016‑Oct 2022) </h2>  
-
     IT Artificial Intelligence (ITAI) is a global and cross functional team working across different use cases in the pharmaceutical industry from commercial (go to market), finance, manufacturing, to drug development and adverse event reporting. Our projects used a modern stack consisting of <strong>Docker</strong> as a consistent development environment, <strong>Amazon AWS</strong> for hosting analytic workflows, <strong>Microsoft Azure</strong> for CI/CD pipelines and git versioning.
-
     <div class="cv-entry">
       <h3 class="project-title">Yield optimization for batch and continuous production processes using Machine Learning in Python</h3>
       <div class="table-without-border">
@@ -159,8 +157,6 @@ title: Rohail Taimour
         </li>
       </ul>
     </div>
-
-
     <div class="cv-entry">
       <h3 class="project-title">Optimize customer engagement based on promotional responsiveness by channel across EU5</h3>
       <div class="table-without-border">
@@ -196,8 +192,6 @@ title: Rohail Taimour
         </li>
       </ul>
     </div>
-
-
     <div class="cv-entry">
       <h3 class="project-title">Scientific influencer (KOLs) identification, ranking and profiling using network analytics and Neo4j</h3>
         <div class="table-without-border">
@@ -230,7 +224,6 @@ title: Rohail Taimour
         </li>
       </ul>
     </div>
-
     <div class="cv-entry">
       <h3 class="project-title">Developed an automated forecasting workflow of claims data from US healthcare system</h3>
       <div class="table-without-border">
@@ -261,7 +254,6 @@ title: Rohail Taimour
         </li>
       </ul>
     </div>
-
     <div class="cv-entry">
       <h3 class="project-title">Hands‑on workshop to demystify Artificial intelligence and Machine Learning</h3>
       <div class="table-without-border">
@@ -289,11 +281,9 @@ title: Rohail Taimour
         </li>
       </ul>
     </div>
-
     <h2> Personal projects </h2>
-
-    * Developed webscraper in python (Beautiful soup, Selenium) to compare apartments based on price, area, etc   
-    * Created a predictive model for whether movie will achieve an imdb rating > 7.5 using best practices for data science projects
+    <li> Developed webscraper in python (Beautiful soup, Selenium) to compare apartments based on price, area, etc </li>   
+    <li> Created a predictive model for whether movie will achieve an imdb rating > 7.5 using best practices for data science projects </li>   
   </div>
 </div>
 
