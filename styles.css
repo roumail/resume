@@ -143,3 +143,21 @@ table {
 td {
   vertical-align: top;
 }
+
+/* Flexbox container for the entire CV */
+.cv-container {
+  display: flex;
+}
+
+/* Sidebar styles */
+.sidebar {
+  background-color: #f4f4f4; /* Light gray */
+  padding: 15px;
+  width: 30%; /* Adjust as needed */
+  min-height: 100vh; /* Full height */
+}
+
+/* Main content styles */
+.main-content {
+  flex: 1; /* Takes up the remaining width */
+}
