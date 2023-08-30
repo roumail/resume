@@ -58,6 +58,9 @@ a:hover {
 
 .sidebar-edu-comments {
   font-size: 12px;
+  list-style: none; /* Removes the bullet */
+  padding-left: 0;  /* Reduces the gap on the left */
+  margin-top: 5px;  /* Optional: Adds some space above the list */
 }
 
 .table-without-border {
@@ -128,12 +131,34 @@ td {
 }
 
 .sidebar {
-  width: 25%; /* This means that this item will take up 20% of the parent container */
+  width: 25%; /* This means that this item will take up 25% of the parent container */
   background-color: #f4f4f4;
   padding: 10px;
   box-sizing: border-box;
 }
 
 .main-content {
-  width: 75%; /* This means that this item will take up the remaining 80% of the parent container */
+  width: 75%; 
+}
+
+/* Competency list */
+.competency-list {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.competency-item {
+  margin-bottom: 10px;
+}
+
+.competency-key {
+  font-weight: bold;
+  text-align: right;
+  padding-right: 10px;
+  width: 40%;
+}
+
+.competency-value {
+  text-align: left;
+  width: 60%;
 }
