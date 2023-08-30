@@ -162,3 +162,8 @@ td {
   text-align: left;
   width: 60%;
 }
+
+/* Usage: <div class="page-break"></div> */
+.page-break {
+  page-break-after: always;
+}
