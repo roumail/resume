@@ -15,6 +15,7 @@
       <p style="margin: 0;">1040, Brussels, Belgium</p>
       <p style="margin: 0;">
         rohail.taimour@gmail.com | +32 489 83 64 76 |
+        <a href="https://www.rohailtaimour.com">Personal website</a> |
         <a href="https://www.linkedin.com/in/rohailtaimour/">Linkedin</a> |
         <a href="https://github.com/roumail">Github</a>
       </p>
@@ -41,10 +42,6 @@
           <td class="competency-value">Python and R (5+ years each)</td>
         </tr>
         <tr class="competency-item">
-          <td class="competency-key">Containerization:</td>
-          <td class="competency-value">Docker</td>
-        </tr>
-        <tr class="competency-item">
           <td class="competency-key">OS:</td>
           <td class="competency-value">Windows, MacOS, Linux (Redhat/Ubuntu)</td>
         </tr>
@@ -53,12 +50,14 @@
           <td class="competency-value">Pycharm, VScode, Rstudio, jupyter notebooks, Azure databricks</td>
         </tr>
         <tr class="competency-item">
-          <td class="competency-key">CI/CD Tools:</td>
-          <td class="competency-value">Git, GitHub/Azure Pipelines, GitHub CLI tools and Git flow branching</td>
+          <td class="competency-key">Devops:</td>
+          <td class="competency-value">Docker, Git, GitHub Actions/Azure Pipelines/Gitlab Pipelines, GitHub CLI tool for
+            release
+            management</td>
         </tr>
         <tr class="competency-item">
           <td class="competency-key">Cloud platforms:</td>
-          <td class="competency-value">AWS, Azure</td>
+          <td class="competency-value">AWS S3, ECS, EKS, Fargate, Eventbridge, ECR</td>
         </tr>
         <tr class="competency-item">
           <td class="competency-key">Databases:</td>
@@ -285,12 +284,32 @@
         </ul>
       </div>
       <h2> Personal projects </h2>
-      <ul>
-        <li> Developed webscraper in python (Beautiful soup, Selenium) to compare apartments based on price, area, etc
-        </li>
-        <li> Created a predictive model for whether movie will achieve an imdb rating > 7.5 using best practices for
-          data science projects </li>
-      </ul>
+      <div class="cv-entry">
+        <h3 class="project-title">Web Scraper to Analyse Property Purchase and Rental Trends in Belgium</h3>
+        <div class="table-without-border">
+        </div>
+        <ul class="project-details">
+          <li>Developed <a href="https://github.com/roumail/immoweb-scraper" target="_blank">web scraper</a> using
+            Beautiful Soup to collect information such as apartment data such as price,
+            area, etc.</li>
+          <li>Implemented SQLite for data storage, using `pydantic` for data validation and `sqlalchemy` for database
+            interactions.</li>
+          <li>Encapsulated the concerns into a python package with dependency management using Poetry.</li>
+          <li>Utilized Prefect for task scheduling, ensuring monitoring of data collection.</li>
+        </ul>
+      </div>
+      <div class="cv-entry">
+        <h3 class="project-title">Personal Portfolio and blogging website built using Hugo and hosted using Github Pages
+        </h3>
+        <div class="table-without-border">
+        </div>
+        <ul class="project-details">
+          <li>Created <a href="https://github.com/roumail/roumail.github.io" target="_blank">website</a> using `Hugo`
+            and implemented features such as a contact form, and visitor commenting
+            capabilities.</li>
+          <li>Hosted the static website on GitHub Pages and automated the deployment process using GitHub Actions.</li>
+        </ul>
+      </div>
     </div>
   </div>
 </body>
