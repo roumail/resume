@@ -12,6 +12,10 @@ authors = ["Rohail Taimour <rohail.taimour@gmail.com>"]
 [tool.poetry.dependencies]
 python = "^3.10"
 jinja2 = "^3.1.2"
+python-dotenv = "^1.0.0"
+
+[tool.poetry.scripts]
+generate-resume = 'resume.generate_resume:main'
 
 [tool.poetry.group.dev.dependencies]
 black = "^23.7.0"

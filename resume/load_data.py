@@ -4,7 +4,8 @@ from pathlib import Path
 
 def load_sidebar_data():
     with open("data/sidebar/sidebar.json", "r") as f:
-        return json.load(f)
+        sidebar_data = json.load(f)
+        return sidebar_data
 
 
 def load_section_data(section):
@@ -23,15 +24,14 @@ def load_main_content_data():
     # Load other sections
     main_content_dir = Path("data/main_content_data")
     sections = sorted(
-        main_content_dir.iterdir(),
-        key=lambda x: int(x.name.split("_")[0])
-        if x.name.split("_")[0].isdigit()
-        else float("inf"),
+        (x for x in main_content_dir.iterdir() if x.name.split("_")[0].isdigit()),
+        key=lambda x: int(x.name.split("_")[0]),
     )
 
     for section in sections:
-        if section != "summary.json" and "personal" not in section:
-            section_data = load_section_data(section)
+        section_name = section.name
+        if section_name != "summary.json" and "personal" not in section_name:
+            section_data = load_section_data(section_name)
             main_content_data["sections"].append(section_data)
 
     # append personal section at the end
