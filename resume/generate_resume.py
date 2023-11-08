@@ -6,6 +6,7 @@ from resume.load_data import (
     load_freelance_projects,
     load_personal_projects,
     load_sidebar_data,
+    load_summary,
     load_ucb_projects,
 )
 from resume.render import configure_jinja
@@ -33,12 +34,12 @@ def main():
         "projects": load_ucb_projects(),
     }
     personal_projects_context = {
-        "section_title": "UCB Projects",
+        "section_title": "Personal Projects",
         "projects": load_personal_projects(),
     }
-
     output = template.render(
         sidebar=sidebar_data,
+        summary=load_summary(),
         freelance_projects_context=freelance_projects_context,
         ucb_projects_context=ucb_projects_context,
         personal_projects_context=personal_projects_context,

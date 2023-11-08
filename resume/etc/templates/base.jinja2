@@ -14,14 +14,18 @@
         {% include 'sidebar/personal_details.jinja2' %}
     </div>
     <div class="main-content">
-        {% include 'main_content/summary.jinja2' %}
+        {% with summary=summary %}
+            {% include 'main_content/summary.jinja2' %}
+        {% endwith %}
         {% with section_title=freelance_projects_context.section_title, projects=freelance_projects_context.projects %}
             {% include 'main_content/project_listing.jinja2' %}
         {% endwith %}
         {% with section_title=ucb_projects_context.section_title, projects=ucb_projects_context.projects %}
             {% include 'main_content/project_listing.jinja2' %}
         {% endwith %}
-        {% include 'main_content/personal_projects.jinja2' %}
+        {% with section_title=personal_projects_context.section_title, projects=personal_projects_context.projects %}
+            {% include 'main_content/project_listing.jinja2' %}
+        {% endwith %}
     </div>
 </body>
 </html>
