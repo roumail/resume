@@ -1,0 +1,27 @@
+{
+  "personal_projects": [
+    {
+      "title": "Web Scraper to analyse Property Purchase and Rental Trends in Belgium",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Developed web scraper using Beautiful Soup to collect information such as apartment data such as price, area, etc.",
+        "Implemented SQLite for data storage, using `pydantic` for data validation and `SQLalchemy` for database interactions.",
+        "Encapsulated the concerns into a python package with dependency management using Poetry.",
+        "Utilized Prefect for task scheduling, ensuring monitoring of data collection."
+      ],
+      "url": "https://github.com/roumail/immoweb-scraper"
+    },
+    {
+      "title": "Personal Portfolio and blogging website built using Hugo and hosted using Github Pages",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Created website using `Hugo` and implemented features such as a contact form, and visitor commenting capabilities.",
+        "Hosted the static website on GitHub Pages and automated the deployment process using GitHub Actions."
+      ],
+      "url": "https://github.com/roumail/roumail.github.io"
+    }
+
+  ]
+}

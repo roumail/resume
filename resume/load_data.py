@@ -13,14 +13,14 @@ def load_sidebar_data():
 
 def load_freelance_projects():
     projects = load_data("data/main_content_data/freelance_projects.json")
-    return projects
+    return projects["freelance_projects"]
 
 
 def load_ucb_projects():
     projects = load_data("data/main_content_data/ucb_projects.json")
-    return projects
+    return projects["ucb_projects"]
 
 
 def load_personal_projects():
     projects = load_data("data/main_content_data/personal_projects.json")
-    return projects
+    return projects["personal_projects"]
