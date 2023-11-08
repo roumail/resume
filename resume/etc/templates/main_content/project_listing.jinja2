@@ -1,0 +1,22 @@
+{# projects_section.jinja2 #}
+<h2>{{ section_title }}</h2>
+{% for project in projects %}
+  <div class="cv-entry">
+    <h3 class="project-title">{{ project.title }}</h3>
+    <div class="table-without-border">
+      <div class="table-row">
+        <div class="table-cell">
+          <p>{{ project.role }}</p>
+        </div>
+        <div class="table-cell">
+          <p>{{ project.duration }}</p>
+        </div>
+      </div>
+    </div>
+    <ul class="project-details">
+      {% for detail in project.details %}
+        <li>{{ detail }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+{% endfor %}

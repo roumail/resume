@@ -15,8 +15,12 @@
     </div>
     <div class="main-content">
         {% include 'main_content/summary.jinja2' %}
-        {% include 'main_content/freelance_projects.jinja2' %}
-        {% include 'main_content/ucb_projects.jinja2' %}
+        {% with section_title=freelance_projects_context.section_title, projects=freelance_projects_context.projects %}
+            {% include 'main_content/project_listing.jinja2' %}
+        {% endwith %}
+        {% with section_title=ucb_projects_context.section_title, projects=ucb_projects_context.projects %}
+            {% include 'main_content/project_listing.jinja2' %}
+        {% endwith %}
         {% include 'main_content/personal_projects.jinja2' %}
     </div>
 </body>

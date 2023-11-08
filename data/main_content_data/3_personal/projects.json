@@ -1,7 +1,0 @@
-{
-    "projects": [
-      "Developed webscraper in python (Beautiful soup, Selenium) to compare apartments based on price, area, etc",
-      "Created a predictive model for whether a movie will achieve an IMDb rating > 7.5 using best practices for data science projects"
-    ]
-  }
-  

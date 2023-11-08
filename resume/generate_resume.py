@@ -2,7 +2,12 @@ import os
 
 from dotenv import load_dotenv
 
-from resume.load_data import load_main_content_data, load_sidebar_data
+from resume.load_data import (
+    load_freelance_projects,
+    load_personal_projects,
+    load_sidebar_data,
+    load_ucb_projects,
+)
 from resume.render import configure_jinja
 
 
@@ -14,14 +19,29 @@ def main():
     # Define the data for the sidebar and main content
     sidebar_data = load_sidebar_data()
 
-    main_content_data = load_main_content_data()
-
     # Configure Jinja and ready the template
     env = configure_jinja()
     template = env.get_template("base.jinja2")
+
+    # Set up context for projects
+    freelance_projects_context = {
+        "section_title": "Freelance projects (Oct 2022-present)",
+        "projects": load_freelance_projects(),
+    }
+    ucb_projects_context = {
+        "section_title": "Data science projects at IT AI team, UCB Pharmaceutical (2016‑Oct 2022)",
+        "projects": load_ucb_projects(),
+    }
+    personal_projects_context = {
+        "section_title": "UCB Projects",
+        "projects": load_personal_projects(),
+    }
+
     output = template.render(
         sidebar=sidebar_data,
-        main_content=main_content_data,
+        freelance_projects_context=freelance_projects_context,
+        ucb_projects_context=ucb_projects_context,
+        personal_projects_context=personal_projects_context,
         resume_title="Rohail Taimour",
     )
     # Save the rendered HTML to a file

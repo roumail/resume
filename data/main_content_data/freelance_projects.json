@@ -1,0 +1,38 @@
+{
+    "freelance_projects": [
+      {
+        "title": "Automated SQL Script Generation for Cross-Platform Data Migration",
+        "role": "Python Software Engineer, Illumina, Mechelen, Belgium",
+        "duration": "July-Aug 2023",
+        "details": [
+          "Designed and implemented an ORM Mapper for dynamic ingestion of various file formats, automating the SQL script generation process for data migration.",
+          "Implemented the solution as a Python package encapsulating the entire data migration logic within a Docker entrypoint for portability and ease of deployment.",
+          "Conducted comprehensive testing of generated SQL scripts using mock PostgreSQL database tables, ensuring script accuracy and reliability.",
+          "Parameterized key inputs allowing for seamless deployment across multiple environments (Development, Integration, Production)."
+        ]
+      },
+      {
+        "title": "Configurable Bioinformatics Pipeline for Event-Triggered Secondary Analysis of Sequencing Data Using Python and Docker",
+        "role": "Python Software Engineer and Data Pipeline Architect, Illumina, Mechelen, Belgium",
+        "duration": "April 2023 - October 2023",
+        "details": [
+          "Developed a configurable multi-stage pipeline for secondary analysis, implemented in Python and deployed as a Docker entrypoint.",
+          "Designed and implemented an event-driven system that actively monitored for new sequencing data, triggering corresponding analyses upon detection of state changes, thereby ensuring timely and efficient processing of data.",
+          "Implemented unit testing using pytest and implemented fail-safe mechanisms for robust error handling.",
+          "Optimized pipeline performance by implementing an SQLite database for tracking previously launched analyses, enabling the pipeline to function as a daemon with persistent memory.",
+          "Provided guidance on automation strategies, leveraging CLI tools and API calls to enhance interoperability between Illumina platforms ICA and Basespace."
+        ]
+      },
+      {
+        "title": "Design and implement information retrieval methods using Natural language processing (NLP)",
+        "role": "Machine Learning Engineer, IT Supply Quality, GSK Belgium",
+        "duration": "Oct 2022‑Feb 2023",
+        "details": [
+          "Improved performance of information retrieval by 20% on unseen test data using a custom named entity recognition (NER) from Spacy.",
+          "Performed POC’s on Azure DataBricks environment to improve model performance using rule-based techniques as well as NER and annotated data to train custom NER.",
+          "Added text preprocessing features to the NLP pipeline such as spacy tokenization, Part of speech (POS) tagging, better handling of non‑english emails, breaking emails into sentences, etc."
+        ]
+      }
+    ]
+  }
+  
