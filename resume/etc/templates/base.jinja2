@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Your Resume Title</title>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/styles.css') }}">
+</head>
+<body>
+    <div class="sidebar">
+        {% include 'sidebar/tags.jinja2' %}
+        {% include 'sidebar/education.jinja2' %}
+        {% include 'sidebar/skills.jinja2' %}
+        {% include 'sidebar/personal_details.jinja2' %}
+    </div>
+    <div class="main-content">
+        {% include 'main_content/summary.jinja2' %}
+        {% include 'main_content/freelance_projects.jinja2' %}
+        {% include 'main_content/ucb_projects.jinja2' %}
+        {% include 'main_content/personal_projects.jinja2' %}
+    </div>
+</body>
+</html>
