@@ -6,3 +6,5 @@ _site/
 .DS_Store
 poetry.lock
 __pycache__
+input.html
+output.html

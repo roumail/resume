@@ -1,24 +1,41 @@
 import os
+from pathlib import Path
 
-from dotenv import load_dotenv
+import typer
+from dotenv import load_dotenv  # noqa
+from loguru import logger
 
 from resume.load_data import load_contexts
 from resume.render import configure_jinja
 
+app = typer.Typer()
 
-def main():
-    load_dotenv()
+
+@app.command()
+def main(
+    data_dir: str = typer.Option(
+        help="Path to the directory containing json files for sidebar and main_content data"
+    ),
+    output_dir: str = typer.Option(help="directory where we create the index.html"),
+):
+    # load_dotenv()
     BASE_DIR = os.getenv("BASE_DIR")
     if not BASE_DIR:
-        raise ("BASE_DIR cannot be None")
+        BASE_DIR = os.getcwd()
+        logger.info(f"Current working directory: {BASE_DIR}")
+        # raise ("BASE_DIR cannot be None")
     contexts = load_contexts()
     env = configure_jinja()
     template = env.get_template("base.jinja2")
     output = template.render(**contexts)
+    path2out = Path(output_dir, "index.html")
+    if path2out.exists():
+        raise (f"index.html already exists at:{path2out}. Remove file and try again")
+
     # Save the rendered HTML to a file
-    with open(f"{BASE_DIR}/output.html", "w") as f:
+    with open(path2out, "w") as f:
         f.write(output)
 
 
 if __name__ == "__main__":
-    main()
+    app()

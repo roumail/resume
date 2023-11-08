@@ -13,6 +13,8 @@ authors = ["Rohail Taimour <rohail.taimour@gmail.com>"]
 python = "^3.10"
 jinja2 = "^3.1.2"
 python-dotenv = "^1.0.0"
+typer = "^0.9.0"
+loguru = "^0.7.2"
 
 [tool.poetry.scripts]
 generate-resume = 'resume.generate_resume:main'
