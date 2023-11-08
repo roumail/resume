@@ -13,15 +13,16 @@ app = typer.Typer()
 @app.command()
 def main(
     data_dir: str = typer.Option(
-        help="Path to the directory containing json files for sidebar and main_content data"
+        ...,
+        help="Path to the directory containing json files for sidebar and main_content data",
     ),
-    output_dir: str = typer.Option(help="directory where we create the index.html"),
+    output_dir: str = typer.Option(
+        default=None, help="directory where we create the index.html"
+    ),
 ):
-    # load_dotenv()
-    BASE_DIR = os.getenv("BASE_DIR")
-    if not BASE_DIR:
-        BASE_DIR = os.getcwd()
-        logger.info(f"Current working directory: {BASE_DIR}")
+    if output_dir is None:
+        output_dir = os.getcwd()
+    logger.info(f"Output directory: {output_dir}")
     contexts = load_contexts(data_dir)
     env = configure_jinja()
     template = env.get_template("base.jinja2")

@@ -16,7 +16,7 @@ typer = "^0.9.0"
 loguru = "^0.7.2"
 
 [tool.poetry.scripts]
-generate-resume = 'resume.generate_resume:main'
+generate-resume = 'resume.generate_resume:app'
 
 [tool.poetry.group.dev.dependencies]
 black = "^23.7.0"
