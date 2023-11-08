@@ -1,10 +1,9 @@
-import importlib.resources as pkg_resources
 import os
 
 from dotenv import load_dotenv
-from jinja2 import Environment, FileSystemLoader
 
 from resume.load_data import load_main_content_data, load_sidebar_data
+from resume.render import configure_jinja
 
 
 def main():
@@ -18,15 +17,13 @@ def main():
     main_content_data = load_main_content_data()
 
     # Configure Jinja and ready the template
-    # Read the template from the package's 'etc' directory
-    with pkg_resources.path("resume.etc", "cv_template.jinja2") as template_path:
-        # Configure Jinja and ready the template
-        env = Environment(loader=FileSystemLoader(searchpath=str(template_path.parent)))
-        template = env.get_template("cv_template.jinja2")
-
-    # Render the template with data
-    output = template.render(sidebar=sidebar_data, main_content=main_content_data)
-
+    env = configure_jinja()
+    template = env.get_template("base.jinja2")
+    output = template.render(
+        sidebar=sidebar_data,
+        main_content=main_content_data,
+        resume_title="Rohail Taimour",
+    )
     # Save the rendered HTML to a file
     with open(f"{BASE_DIR}/output.html", "w") as f:
         f.write(output)

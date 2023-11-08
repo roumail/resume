@@ -1,10 +1,10 @@
 <p style="margin: 0; font-weight: bold; font-size: 18px; color: #bc412b;">
-  {{ tags.title }}
+   {{ sidebar.tags.titles | join(' | ') }}
 </p>
-<p style="margin: 0;">{{ tags.location }}</p>
+<p style="margin: 0;">{{ sidebar.tags.location }}</p>
 <p style="margin: 0;">
-  {{ tags.email }} | {{ tags.phone }} |
-  <a href="{{ tags.website }}">Personal website</a> |
-  <a href="{{ tags.linkedin }}">Linkedin</a> |
-  <a href="{{ tags.github }}">Github</a>
+  {{ sidebar.tags.email }} | {{ sidebar.tags.phone }} |
+  <a href="{{ sidebar.tags.website }}">Personal website</a> |
+  <a href="{{ sidebar.tags.linkedin }}">Linkedin</a> |
+  <a href="{{ sidebar.tags.github }}">Github</a>
 </p>

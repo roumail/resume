@@ -1,12 +1,17 @@
 {
     "tags": {
-        "title": "Python/R Software Engineer | Contract Data Scientist | Statistician | AI/Machine Learning Specialist",
-            "location": "1040, Brussels, Belgium",
-            "email": "rohail.taimour@gmail.com",
-            "phone": "+32 489 83 64 76",
-            "website": "https://www.rohailtaimour.com",
-            "linkedin": "https://www.linkedin.com/in/rohailtaimour/",
-            "github": "https://github.com/roumail"
+        "titles": [
+            "Python/R Software Engineer",
+            "Contract Data Scientist",
+            "Statistician",
+            "AI/Machine Learning Specialist"
+        ],
+        "location": "1040, Brussels, Belgium",
+        "email": "rohail.taimour@gmail.com",
+        "phone": "+32 489 83 64 76",
+        "website": "https://www.rohailtaimour.com",
+        "linkedin": "https://www.linkedin.com/in/rohailtaimour/",
+        "github": "https://github.com/roumail"
     },
     "education": [
       {
