@@ -2,11 +2,10 @@ import json
 from pathlib import Path
 
 
-def load_data(base_path, relative_path):
-    full_path = Path(base_path, relative_path)
-    if not full_path.exists():
-        raise FileNotFoundError(f"The file {full_path} does not exist.")
-    with open(full_path, "r") as f:
+def load_data(fpath):
+    if not fpath.exists():
+        raise FileNotFoundError(f"No file found at: {fpath}")
+    with open(fpath, "r") as f:
         return json.load(f)
 
 
