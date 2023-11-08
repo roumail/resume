@@ -2,7 +2,6 @@ import os
 from pathlib import Path
 
 import typer
-from dotenv import load_dotenv  # noqa
 from loguru import logger
 
 from resume.load_data import load_contexts
@@ -23,14 +22,15 @@ def main(
     if not BASE_DIR:
         BASE_DIR = os.getcwd()
         logger.info(f"Current working directory: {BASE_DIR}")
-        # raise ("BASE_DIR cannot be None")
-    contexts = load_contexts()
+    contexts = load_contexts(data_dir)
     env = configure_jinja()
     template = env.get_template("base.jinja2")
     output = template.render(**contexts)
     path2out = Path(output_dir, "index.html")
     if path2out.exists():
-        raise (f"index.html already exists at:{path2out}. Remove file and try again")
+        raise FileExistsError(
+            f"index.html already exists at:{path2out}. Remove file and try again"
+        )
 
     # Save the rendered HTML to a file
     with open(path2out, "w") as f:
