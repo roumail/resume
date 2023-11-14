@@ -16,8 +16,10 @@ def load_contexts(data_dir):
     summary_path = base_path / "main_content_data/summary.json"
     main_content_path = base_path / "main_content_data/professional_projects.json"
     personal_projects_path = base_path / "main_content_data/personal_projects.json"
+    og_tags_path = base_path / "og_tags.json"
 
     main_content_data = load_data(main_content_path)["projects"]
+    og_tags_data = load_data(og_tags_path)
     contexts = {
         "sidebar": load_data(sidebar_path),
         "summary": load_data(summary_path)["summary"],
@@ -26,6 +28,7 @@ def load_contexts(data_dir):
             "projects": load_data(personal_projects_path)["personal_projects"],
         },
         "resume_title": "Rohail Taimour",
+        "og_tags": og_tags_data,
     }
 
     # Dynamically load each project section
