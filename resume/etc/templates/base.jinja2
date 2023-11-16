@@ -2,7 +2,9 @@
 <html>
 <head>
   <title>{{ resume_title }}</title>
-  {% include 'og_tags.jinja2' %}
+  {% with cv_url=cv_url, gravatar_link=gravatar_link, og_description=og_description %}
+    {% include 'og_tags.jinja2' %}
+  {% endwith %}
   <style type="text/css">
     {% include 'styles.css' %}
   </style>
