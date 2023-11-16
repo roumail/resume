@@ -1,1 +1,1 @@
-- Bug fix added title
+- Fix passing of open graph tags
