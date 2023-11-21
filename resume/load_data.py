@@ -14,8 +14,7 @@ def load_contexts(data_dir):
     base_path = Path(data_dir)
     sidebar_path = base_path / "sidebar/sidebar.json"
     summary_path = base_path / "main_content_data/summary.json"
-    main_content_path = base_path / "main_content_data/professional_projects.json"
-    personal_projects_path = base_path / "main_content_data/personal_projects.json"
+    main_content_path = base_path / "main_content_data/projects.json"
     og_tags_path = base_path / "og_tags.json"
 
     main_content_data = load_data(main_content_path)["projects"]
@@ -23,10 +22,6 @@ def load_contexts(data_dir):
     contexts = {
         "sidebar": load_data(sidebar_path),
         "summary": load_data(summary_path)["summary"],
-        "personal_projects_context": {
-            "section_title": "Personal Projects",
-            "projects": load_data(personal_projects_path)["personal_projects"],
-        },
         "resume_title": "Rohail Taimour",
         "og_tags": og_tags_data,
     }
