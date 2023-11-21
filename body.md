@@ -1,1 +1,1 @@
-- Fix passing of open graph tags
+- Remove the need for a personal projects json, everything now uses the same json file

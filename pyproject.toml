@@ -4,7 +4,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
 name = "resume"
-version = "0.0.4"
+version = "0.0.5"
 readme = "README.md"
 description = "A package to update my cv"
 authors = ["Rohail Taimour <rohail.taimour@gmail.com>"]
