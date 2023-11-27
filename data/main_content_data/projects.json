@@ -1,117 +1,112 @@
-{
-  "projects": [
-    {
-      "freelance_projects": {
-        "section_title": "",
-        "items": [
-          {
-            "title": "Automated SQL Script Generation for Cross-Platform Data Migration in PostgreSQL",
-            "role": "Python Software Engineer, Illumina, Mechelen, Belgium",
-            "duration": "July-Aug 2023",
-            "details": [
-              "Designed and implemented an ORM Mapper for dynamic ingestion of various file formats, automating the SQL script generation process for data migration.",
-              "Implemented the solution as a Python package encapsulating the entire data migration logic within a Docker entrypoint for portability and ease of deployment.",
-              "Conducted comprehensive testing of generated SQL scripts using mock PostgreSQL database tables, ensuring script accuracy and reliability.",
-              "Parameterized key inputs allowing for seamless deployment across multiple environments (Development, Integration, Production)."
-            ]
-          },
-          {
-            "title": "Multi-Layered Python Solution for Bioinformatics Pipeline Management and Automation",
-            "role": "Python Software Engineer and Data Pipeline Architect, Illumina, Mechelen, Belgium",
-            "duration": "April 2023 - October 2023",
-            "details": [
-              "Implemented a Python service to routinely monitor new sequencing data, tracking progress using an SQLite database.",
-              "Developed a multi-layered Python package: one layer encapsulated a data processing component, packaged within a <strong>Docker</strong> runtime environment, for handling bioinformatics pipeline outputs.",
-              "Created a separate entry point within the package responsible for initiating and managing the Docker-packaged data processing component, as well as other routine operations such as downloading completed analyses, updating analyses statuses, etc",
-              "Implemented comprehensive systems integration, utilizing a combination of CLI tools and API calls for effective coordination and automation across various software components.",
-              "Applied Object-Oriented Programming (OOP) techniques to organize API, database interactions and endpoint processing.",
-              "Implemented unit testing using <strong>pytest</strong> and implemented fail-safe mechanisms for robust error handling."
-            ]
-          },
-          {
-            "title": "Design and implement information retrieval methods using Natural language processing (NLP)",
-            "role": "Machine Learning Engineer, IT Supply Quality, GSK Belgium",
-            "duration": "Oct 2022‑Feb 2023",
-            "details": [
-              "Improved performance of information retrieval by 20% on unseen test data using a custom named entity recognition (NER) from <strong>Spacy</strong>.",
-              "Performed POC’s on Azure DataBricks environment to improve model performance using rule-based techniques as well as <strong>NER</strong> and annotated data to train custom NER.",
-              "Added text preprocessing features to the NLP pipeline such as <strong>Spacy</strong> tokenization, Part of speech (POS) tagging, better handling of non‑english emails, breaking emails into sentences, etc."
-            ]
-          }
+[
+  {
+    "project_type": "freelance",
+    "section_title": "Freelance Projects",
+    "items": [
+      {
+        "title": "Automated SQL Script Generation for Cross-Platform Data Migration in PostgreSQL",
+        "role": "Python Software Engineer, Illumina, Mechelen, Belgium",
+        "duration": "July-Aug 2023",
+        "details": [
+          "Designed and implemented an ORM Mapper for dynamic ingestion of various file formats, automating the SQL script generation process for data migration.",
+          "Implemented the solution as a Python package encapsulating the entire data migration logic within a Docker entrypoint for portability and ease of deployment.",
+          "Conducted comprehensive testing of generated SQL scripts using mock PostgreSQL database tables, ensuring script accuracy and reliability.",
+          "Parameterized key inputs allowing for seamless deployment across multiple environments (Development, Integration, Production)."
+        ]
+      },
+      {
+        "title": "Multi-Layered Python Solution for Bioinformatics Pipeline Management and Automation",
+        "role": "Python Software Engineer and Data Pipeline Architect, Illumina, Mechelen, Belgium",
+        "duration": "April 2023 - October 2023",
+        "details": [
+          "Implemented a Python service to routinely monitor new sequencing data, tracking progress using an SQLite database.",
+          "Developed a multi-layered Python package: one layer encapsulated a data processing component, packaged within a <strong>Docker</strong> runtime environment, for handling bioinformatics pipeline outputs.",
+          "Created a separate entry point within the package responsible for initiating and managing the Docker-packaged data processing component, as well as other routine operations such as downloading completed analyses, updating analyses statuses, etc",
+          "Implemented comprehensive systems integration, utilizing a combination of CLI tools and API calls for effective coordination and automation across various software components.",
+          "Applied Object-Oriented Programming (OOP) techniques to organize API, database interactions and endpoint processing.",
+          "Implemented unit testing using <strong>pytest</strong> and implemented fail-safe mechanisms for robust error handling."
+        ]
+      },
+      {
+        "title": "Design and implement information retrieval methods using Natural language processing (NLP)",
+        "role": "Machine Learning Engineer, IT Supply Quality, GSK Belgium",
+        "duration": "Oct 2022‑Feb 2023",
+        "details": [
+          "Improved performance of information retrieval by 20% on unseen test data using a custom named entity recognition (NER) from <strong>Spacy</strong>.",
+          "Performed POC’s on Azure DataBricks environment to improve model performance using rule-based techniques as well as <strong>NER</strong> and annotated data to train custom NER.",
+          "Added text preprocessing features to the NLP pipeline such as <strong>Spacy</strong> tokenization, Part of speech (POS) tagging, better handling of non‑english emails, breaking emails into sentences, etc."
         ]
       }
-    },
-    {
-      "ucb_projects": {
-        "section_title": "",
-        "items": [
-          {
-            "title": "Yield optimization for batch and continuous production processes using Machine Learning in Python",
-            "role": "Lead Data Scientist, Supply and Manufacturing, UCB Switzerland/Belgium",
-            "duration": "Aug 2020‑Oct 2022",
-            "details": [
-              "Production setting proposed by model directly led to an increased throughput of 20%, turning in a recurring 1.5 million euro in annual cost savings",
-              "Analyze time series data collected from equipment sensors and visually summarize golden batch insights",
-              "Created (Bayesian) and tree-based regression models to quantify impact of process changes and predict batch performance",
-              "Performed a thorough model validation and hyperparameter tuning exercise before recommending model insights be tested in a live production environment",
-              "Supported delivery of workshops demystifying the process of conducting AI projects and machine learning to process experts"
-            ]
-          },
-          {
-            "title": "Python Framework for Customized Promotional Responsiveness Models Across Regions",
-            "role": "AI/ML engineer, Lead Data Scientist, Go to Market/Commercial EU5, US and Japan, UCB",
-            "duration": "June 2019‑June 2021",
-            "details": [
-              "Developed a Python package with <strong>Cookiecutter</strong> templates that abstract the complexities of the data science workflow, enabling configurable deployments across diverse scenarios such as different countries and disease areas.",
-              "Enhanced the package to seamlessly wrap over <strong>scikit-learn</strong>, thereby simplifying key data science tasks from preprocessing to model training and tuning",
-              "Incorporated <strong>MLflow</strong> into the package for robust artifact management, allowing for the tracking of model versions, data inputs, and predictions",
-              "Created customer segmentation models and proposed optimal resource allocation based on customer responsiveness to different marketing channels",
-              "Investigated adaptations to data science methodology for country/product specificities for maximum reusability. Delivered as many as ten different use cases for different products and countries",
-              "Supported data engineers in the creation of features using <strong>PySpark</strong> and validated ingested data using data visualization methods and discussions with subject-matter experts"
-            ]
-          },
-          {
-            "title": "Scientific influencer (KOLs) identification, ranking and profiling using network analytics and Neo4j",
-            "role": "Data scientist/Product owner, Drug Development, Commercial, Medical affairs, UCB",
-            "duration": "2018‑2019",
-            "details": [
-              "Developed custom <strong>Neo4j</strong> databases integrating diverse data sources for KOL influence analysis, enhancing data-driven decision-making.",
-              "Utilized <strong>py2neo</strong> within <strong>Jupyter Notebooks</strong> for interactive data manipulation and network visualizations, employing tools like </strong>NetworkX</strong> and <strong>Cytoscape</strong> for insightful analysis.",
-              "Interacted with the Graph database via <strong>Cypher</strong> queries in  the web UI as well as via the CLI for data extraction, exploration and reporting.",
-              "Supported improvements in the intake of customer requests to reduce time to deliver reports from days to hours"
-            ]
-          }
+    ]
+  },
+  {
+    "project_type": "",
+    "section_title": "UCB Projects",
+    "items": [
+      {
+        "title": "Yield optimization for batch and continuous production processes using Machine Learning in Python",
+        "role": "Lead Data Scientist, Supply and Manufacturing, UCB Switzerland/Belgium",
+        "duration": "Aug 2020‑Oct 2022",
+        "details": [
+          "Production setting proposed by model directly led to an increased throughput of 20%, turning in a recurring 1.5 million euro in annual cost savings",
+          "Analyze time series data collected from equipment sensors and visually summarize golden batch insights",
+          "Created (Bayesian) and tree-based regression models to quantify impact of process changes and predict batch performance",
+          "Performed a thorough model validation and hyperparameter tuning exercise before recommending model insights be tested in a live production environment",
+          "Supported delivery of workshops demystifying the process of conducting AI projects and machine learning to process experts"
+        ]
+      },
+      {
+        "title": "Python Framework for Customized Promotional Responsiveness Models Across Regions",
+        "role": "AI/ML engineer, Lead Data Scientist, Go to Market/Commercial EU5, US and Japan, UCB",
+        "duration": "June 2019‑June 2021",
+        "details": [
+          "Developed a Python package with <strong>Cookiecutter</strong> templates that abstract the complexities of the data science workflow, enabling configurable deployments across diverse scenarios such as different countries and disease areas.",
+          "Enhanced the package to seamlessly wrap over <strong>scikit-learn</strong>, thereby simplifying key data science tasks from preprocessing to model training and tuning",
+          "Incorporated <strong>MLflow</strong> into the package for robust artifact management, allowing for the tracking of model versions, data inputs, and predictions",
+          "Created customer segmentation models and proposed optimal resource allocation based on customer responsiveness to different marketing channels",
+          "Investigated adaptations to data science methodology for country/product specificities for maximum reusability. Delivered as many as ten different use cases for different products and countries",
+          "Supported data engineers in the creation of features using <strong>PySpark</strong> and validated ingested data using data visualization methods and discussions with subject-matter experts"
+        ]
+      },
+      {
+        "title": "Scientific influencer (KOLs) identification, ranking and profiling using network analytics and Neo4j",
+        "role": "Data scientist/Product owner, Drug Development, Commercial, Medical affairs, UCB",
+        "duration": "2018‑2019",
+        "details": [
+          "Developed custom <strong>Neo4j</strong> databases integrating diverse data sources for KOL influence analysis, enhancing data-driven decision-making.",
+          "Utilized <strong>py2neo</strong> within <strong>Jupyter Notebooks</strong> for interactive data manipulation and network visualizations, employing tools like </strong>NetworkX</strong> and <strong>Cytoscape</strong> for insightful analysis.",
+          "Interacted with the Graph database via <strong>Cypher</strong> queries in  the web UI as well as via the CLI for data extraction, exploration and reporting.",
+          "Supported improvements in the intake of customer requests to reduce time to deliver reports from days to hours"
         ]
       }
-    },
-    {
-      "personal_projects": {
-        "section_title": "Personal Projects",
-        "items": [
-          {
-            "title": "Web Scraper to analyse Property Purchase and Rental Trends in Belgium",
-            "role": "",
-            "duration": "",
-            "details": [
-              "Developed web scraper using Beautiful Soup to collect information such as apartment data such as price, area, etc.",
-              "Implemented SQLite for data storage, using `pydantic` for data validation and `SQLalchemy` for database interactions.",
-              "Encapsulated the concerns into a python package with dependency management using Poetry.",
-              "Utilized Prefect for task scheduling, ensuring monitoring of data collection."
-            ],
-            "url": "https://github.com/roumail/immoweb-scraper"
-          },
-          {
-            "title": "Personal Portfolio and blogging website built using Hugo and hosted using Github Pages",
-            "role": "",
-            "duration": "",
-            "details": [
-              "Created website using `Hugo` and implemented features such as a contact form, and visitor commenting capabilities.",
-              "Hosted the static website on GitHub Pages and automated the deployment process using GitHub Actions."
-            ],
-            "url": "https://github.com/roumail/roumail.github.io"
-          }
-        ]
+    ]
+  },
+  {
+    "project_type": "personal",
+    "section_title": "Personal Projects",
+    "items": [
+      {
+        "title": "Web Scraper to analyse Property Purchase and Rental Trends in Belgium",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Developed web scraper using Beautiful Soup to collect information such as apartment data such as price, area, etc.",
+          "Implemented SQLite for data storage, using `pydantic` for data validation and `SQLalchemy` for database interactions.",
+          "Encapsulated the concerns into a python package with dependency management using Poetry.",
+          "Utilized Prefect for task scheduling, ensuring monitoring of data collection."
+        ],
+        "url": "https://github.com/roumail/immoweb-scraper"
+      },
+      {
+        "title": "Personal Portfolio and blogging website built using Hugo and hosted using Github Pages",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Created website using `Hugo` and implemented features such as a contact form, and visitor commenting capabilities.",
+          "Hosted the static website on GitHub Pages and automated the deployment process using GitHub Actions."
+        ],
+        "url": "https://github.com/roumail/roumail.github.io"
       }
-    }
-  ]
-}
+    ]
+  }
+]

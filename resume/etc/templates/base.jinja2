@@ -21,15 +21,9 @@
         {% with summary=summary %}
             {% include 'main_content/summary.jinja2' %}
         {% endwith %}
-        {% with section_title=freelance_projects_context.section_title, projects=freelance_projects_context.projects %}
+        {% for section in projects %}
             {% include 'main_content/project_listing.jinja2' %}
-        {% endwith %}
-        {% with section_title=ucb_projects_context.section_title, projects=ucb_projects_context.projects %}
-            {% include 'main_content/project_listing.jinja2' %}
-        {% endwith %}
-        {% with section_title=personal_projects_context.section_title, projects=personal_projects_context.projects %}
-            {% include 'main_content/project_listing.jinja2' %}
-        {% endwith %}
+        {% endfor %}
     </div>
 </body>
 </html>

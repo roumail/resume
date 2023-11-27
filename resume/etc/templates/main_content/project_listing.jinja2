@@ -1,6 +1,6 @@
 {# projects_section.jinja2 #}
-<h2>{{ section_title }}</h2>
-{% for project in projects %}
+<h2>{{ section.section_title }}</h2>
+{% for project in section.get('items', []) %}
   <div class="cv-entry">
     <h3 class="project-title">
       {% if project.url %}
