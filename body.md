@@ -1,1 +1,1 @@
-- Remove the need for a personal projects json, everything now uses the same json file
+- Simplify data structure of the json file
