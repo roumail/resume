@@ -1,1 +1,1 @@
-- Simplify data structure of the json file
+- Bug fix in template (typo)
