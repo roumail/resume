@@ -1,1 +1,1 @@
-- Bug fix in template (typo)
+- Update template to also have job history section
