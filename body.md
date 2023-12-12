@@ -1,1 +1,1 @@
-- Update template to also have job history section
+- Update formatting of job history
