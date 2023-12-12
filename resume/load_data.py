@@ -15,6 +15,7 @@ def load_contexts(data_dir):
     sidebar_path = base_path / "sidebar/sidebar.json"
     summary_path = base_path / "main_content_data/summary.json"
     main_content_path = base_path / "main_content_data/projects.json"
+    job_history_path = base_path / "main_content_data/job_history.json"
     og_tags_path = base_path / "og_tags.json"
 
     og_tags_data = load_data(og_tags_path)
@@ -24,6 +25,7 @@ def load_contexts(data_dir):
         "resume_title": "Rohail Taimour",
         "og_tags": og_tags_data,
         "projects": load_data(main_content_path),
+        "job_history": load_data(job_history_path),
     }
 
     return contexts

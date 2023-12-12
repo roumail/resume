@@ -21,6 +21,7 @@
         {% with summary=summary %}
             {% include 'main_content/summary.jinja2' %}
         {% endwith %}
+        {% include 'main_content/job_history.jinja2' %}
         {% for section in projects %}
             {% include 'main_content/project_listing.jinja2' %}
         {% endfor %}
