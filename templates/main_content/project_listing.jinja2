@@ -1,0 +1,34 @@
+{# projects_section.jinja2 #}
+<h2>{{ section.section_title }}</h2>
+{% for project in section.get('items', []) %}
+  <div class="cv-entry">
+    <h3 class="project-title">
+      {% if project.url %}
+        <a href="{{ project.url }}" target="_blank">{{ project.title }}</a>
+      {% else %}
+        {{ project.title }}
+      {% endif %}
+    </h3>
+    {% if project.role or project.duration %}
+      <div class="table-without-border">
+        <div class="table-row">
+          {% if project.role %}
+            <div class="table-cell">
+              <p>{{ project.role }}</p>
+            </div>
+          {% endif %}
+          {% if project.duration %}
+            <div class="table-cell">
+              <p>{{ project.duration }}</p>
+            </div>
+          {% endif %}
+        </div>
+      </div>
+    {% endif %}
+    <ul class="project-details">
+      {% for detail in project.details %}
+        <li>{{ detail }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+{% endfor %}

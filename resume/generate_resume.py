@@ -2,6 +2,7 @@ import json
 import os
 from importlib import resources
 from pathlib import Path
+from typing import Any
 
 import typer
 from jinja2 import Environment, FileSystemLoader, select_autoescape
@@ -9,11 +10,14 @@ from loguru import logger
 
 from resume import PACKAGE_NAME
 
-app = typer.Typer()
+app = typer.Typer(
+    add_completion=False,
+    help="Create a servable html document from json files organized in a predefined directory structure.",
+)
 
 
 def configure_jinja():
-    template_dir = resources.files(PACKAGE_NAME).joinpath("etc/templates")
+    template_dir = (resources.files(PACKAGE_NAME).resolve().parent) / "templates"
     env = Environment(
         loader=FileSystemLoader(searchpath=str(template_dir)),
         autoescape=select_autoescape(["html", "xml"]),
@@ -21,7 +25,7 @@ def configure_jinja():
     return env
 
 
-def load_data(fpath):
+def load_data(fpath: Path):
     if not fpath.exists():
         raise FileNotFoundError(f"No file found at: {fpath}")
     with open(fpath, "r") as f:
@@ -29,7 +33,7 @@ def load_data(fpath):
 
 
 # Load all data
-def load_contexts(data_dir):
+def load_contexts(data_dir: str) -> dict[str, Any]:
     base_path = Path(data_dir)
     sidebar_path = base_path / "sidebar/sidebar.json"
     summary_path = base_path / "main_content_data/summary.json"
