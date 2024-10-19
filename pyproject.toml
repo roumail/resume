@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "resume"
-version = "0.1.0"
+version = "0.2.0"
 description = "A package to update my cv"
 authors = [
   { name = "Rohail Taimour" }
@@ -29,6 +29,11 @@ dev = [
 [project.scripts]
 website = "website.entrypoints:app"
 generate-resume = "resume.generate_resume:app"
+
+[tool.hatch.build]
+include = [
+    "templates/**/*"  
+]
 
 [tool.black]
 line-length = 88

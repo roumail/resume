@@ -1,10 +1,10 @@
+dist/
 .env
 _site/
 .sass-cache/
 !data/closeup-Photo.jpeg
 *.pdf
 .DS_Store
-poetry.lock
 __pycache__
 input.html
 output.html
