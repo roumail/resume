@@ -1,13 +1,57 @@
+import json
 import os
+from importlib import resources
 from pathlib import Path
+from typing import Any
 
 import typer
+from jinja2 import Environment, FileSystemLoader, select_autoescape
 from loguru import logger
 
-from resume.load_data import load_contexts
-from resume.render import configure_jinja
+from resume import PACKAGE_NAME
 
-app = typer.Typer()
+app = typer.Typer(
+    add_completion=False,
+    help="Create a servable html document from json files organized in a predefined directory structure.",
+)
+
+
+def configure_jinja():
+    template_dir = (resources.files(PACKAGE_NAME).resolve().parent) / "templates"
+    env = Environment(
+        loader=FileSystemLoader(searchpath=str(template_dir)),
+        autoescape=select_autoescape(["html", "xml"]),
+    )
+    return env
+
+
+def load_data(fpath: Path):
+    if not fpath.exists():
+        raise FileNotFoundError(f"No file found at: {fpath}")
+    with open(fpath, "r") as f:
+        return json.load(f)
+
+
+# Load all data
+def load_contexts(data_dir: str) -> dict[str, Any]:
+    base_path = Path(data_dir)
+    sidebar_path = base_path / "sidebar/sidebar.json"
+    summary_path = base_path / "main_content_data/summary.json"
+    main_content_path = base_path / "main_content_data/projects.json"
+    job_history_path = base_path / "main_content_data/job_history.json"
+    og_tags_path = base_path / "og_tags.json"
+
+    og_tags_data = load_data(og_tags_path)
+    contexts = {
+        "sidebar": load_data(sidebar_path),
+        "summary": load_data(summary_path)["summary"],
+        "resume_title": "Rohail Taimour",
+        "og_tags": og_tags_data,
+        "projects": load_data(main_content_path),
+        "job_history": load_data(job_history_path),
+    }
+
+    return contexts
 
 
 @app.command()
