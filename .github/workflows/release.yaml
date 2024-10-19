@@ -5,6 +5,7 @@ on:
     tags:
       - "v*"
 
+# TODO: update to use bump2version config from reusable action
 jobs:
   build:
     runs-on: ubuntu-latest
