@@ -4,6 +4,10 @@ A python package containing the jinja templates for maintaining my CV. The CV
 content is rendered to `html` and served locally using `jekyll` and converted to
 `pdf` using `wkhtmltopdf`.
 
+## Installation
+
+To install the package for local work, you can use `uv pip install -e ."[dev]"`.
+
 ## Releasing a new package version
 
 Use `git tag -a "v{VERSION_NUMBER}" -m "{MESSAGE}"` to create a tag and push it.
