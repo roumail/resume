@@ -30,7 +30,7 @@ generate-resume = "resume.generate_resume:main"
 
 [tool.hatch.build]
 include = [
-    "templates/**/*"  
+    "resume/templates/**/*"  
 ]
 package = ["resume"]
 
