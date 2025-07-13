@@ -1,19 +1,14 @@
+import argparse
 import json
 import os
 from importlib import resources
 from pathlib import Path
 from typing import Any
 
-import typer
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 from loguru import logger
 
 from resume import PACKAGE_NAME
-
-app = typer.Typer(
-    add_completion=False,
-    help="Create a servable html document from json files organized in a predefined directory structure.",
-)
 
 
 def configure_jinja():
@@ -54,18 +49,7 @@ def load_contexts(data_dir: str) -> dict[str, Any]:
     return contexts
 
 
-@app.command()
-def main(
-    data_dir: str = typer.Option(
-        ...,
-        help="Path to the directory containing json files for sidebar and main_content data",
-    ),
-    output_dir: str = typer.Option(
-        default=None, help="directory where we create the index.html"
-    ),
-):
-    if output_dir is None:
-        output_dir = os.getcwd()
+def _main(data_dir: str, output_dir: str):
     logger.info(f"Output directory: {output_dir}")
     contexts = load_contexts(data_dir)
     env = configure_jinja()
@@ -82,5 +66,23 @@ def main(
         f.write(output)
 
 
+def main():
+    parser = argparse.ArgumentParser(
+        description="Create a servable html document from json files organized in a predefined directory structure."
+    )
+    parser.add_argument(
+        "data_dir",
+        help="Path to the directory containing json files for sidebar and main_content data",
+    )
+    parser.add_argument(
+        "--output_dir",
+        default=None,
+        help="Directory where we create the index.html",
+    )
+    args = parser.parse_args()
+    output_dir = args.output_dir or os.getcwd()
+    _main(args.data_dir, output_dir)
+
+
 if __name__ == "__main__":
-    app()
+    main()
