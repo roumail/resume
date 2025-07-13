@@ -17,7 +17,7 @@ app = typer.Typer(
 
 
 def configure_jinja():
-    template_dir = (resources.files(PACKAGE_NAME).resolve().parent) / "templates"
+    template_dir = (resources.files(PACKAGE_NAME)) / "templates"
     env = Environment(
         loader=FileSystemLoader(searchpath=str(template_dir)),
         autoescape=select_autoescape(["html", "xml"]),
