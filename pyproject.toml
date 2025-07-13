@@ -32,6 +32,7 @@ generate-resume = "resume.generate_resume:main"
 include = [
     "templates/**/*"  
 ]
+package = ["resume"]
 
 [tool.black]
 line-length = 88
