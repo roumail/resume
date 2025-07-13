@@ -28,11 +28,9 @@ dev = [
 [project.scripts]
 generate-resume = "resume.generate_resume:main"
 
-[tool.hatch.build]
-include = [
-    "resume/templates/**/*"  
-]
-package = ["resume"]
+[tool.hatch.build.targets.wheel]
+packages = ["resume"]
+only-packages = true
 
 [tool.black]
 line-length = 88
