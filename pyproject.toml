@@ -30,7 +30,7 @@ generate-resume = "resume.generate_resume:main"
 
 [tool.hatch.build.targets.wheel]
 packages = ["resume"]
-only-packages = true
+includes = ["resume/templates/**/*"]
 
 [tool.black]
 line-length = 88
