@@ -29,9 +29,11 @@ dev = [
 generate-resume = "resume.generate_resume:main"
 
 [tool.hatch.build]
-include = [
-    "templates/**/*"  
-]
+include = ["resume/**/*"]
+
+[tool.hatch.build.targets.wheel.sources]
+"resume" = "resume/" 
+"resume/templates" = "resume/resume/templates"
 
 [tool.black]
 line-length = 88
