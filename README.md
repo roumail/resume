@@ -20,6 +20,18 @@ would be released for this version.
 Refer to the [`cv-data`](https://github.com/roumail/cv-data) repository for
 instructions on how to do this.
 
+## Useful commands
+* Installing tools and packages 
+    * uv venv .venv
+    * uv pip install pip 
+    * uv pip install .
+    * source .venv/activate/bin
+    * uv pip install -e .
+    * uv pip install build
+* python -m release (to bump)
+* python -m build (after having run uv pip install build)
+* Check the sdist and dist `tar -tvf dist/resume-0.1.2.tar.gz` by looking at this for sdist and site-packages for the result of installing from the wheel
+
 ## Author
 
 Rohail Taimour
